@@ -8,7 +8,7 @@ label start:
     show angel at scale(0.6), center
     with dissolve
 
-    angel "Hi there!{w=1.5} So, you want to start your own business...{w=1.5} What’s your name?"
+    angel "Hi there!{w=0.5} So, you want to start your own business...{w=0.5} What’s your name?"
 
     python:
         player_name = renpy.input("My name is...", length=32)
@@ -37,3 +37,5 @@ label start:
     angel "Keep your eyes on the goal and never stop believing in yourself. [business_name] could be the start of something amazing."
 
     angel smile "Now let's get to work!"
+
+    jump stats
