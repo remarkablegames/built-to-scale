@@ -14,7 +14,7 @@ default eileen_lv = 99
 
 define e = Character("Eileen")
 
-label startGame:
+label start:
     scene bg club
 
     show eileen happy

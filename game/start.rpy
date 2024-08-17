@@ -1,5 +1,4 @@
-label start:
-    play music lofi_intro fadein 1.2
+label startGame:
 
     "I see my psychology teacher walking up to me..."
 
@@ -8,8 +7,6 @@ label start:
 
     show teacher at scale(0.6), center
     with dissolve
-
-    queue music lofi_verse
 
     teacher "Hi there!{w=0.2} What’s your name?"
 
