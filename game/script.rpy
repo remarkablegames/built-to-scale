@@ -14,10 +14,10 @@ default eileen_lv = 99
 
 define e = Character("Eileen")
 
-label start:
+label test:
     scene bg club
 
-    show eileen happy
+    show angel happy
 
     jump screens_menu
 
