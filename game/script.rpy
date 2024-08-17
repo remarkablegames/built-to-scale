@@ -43,7 +43,6 @@ screen single_stat(name, hp, hp_max, lv, xalign):
                     xmaximum 180
                     ysize 26
 
-
                 text " [hp]/[hp_max]":
                     yalign 0.5
 
@@ -158,7 +157,10 @@ label screens_menu:
         e "What would you like to know about screens?"
 
         "What screens can do.":
-            call screens_demo from _call_screens_demo
+            call screens_demo
+
+        "Special screen statements.":
+            call screens_control
 
         "That's it.":
             return
@@ -211,3 +213,41 @@ label screens_demo:
     e "While screens might be complex, they're really just the result of a lot of simple parts working together to make something larger than all of them."
 
     return
+
+label screens_control:
+    show screen increment
+
+    e "Click the button"
+
+    hide screen increment
+
+    show screen press
+
+    e "Press the key"
+
+    hide screen press
+
+    return
+
+screen increment():
+    default n = 0
+
+    frame:
+        xalign 0.5 ypos 50
+        vbox:
+            if n > 2:
+                text "n = [n]" color "#cfc"
+            else:
+                text "n = [n]" color "#fcc"
+
+            textbutton "Increase" action SetScreenVariable("n", n + 1)
+
+screen press():
+    frame:
+        xalign 0.5 ypos 50
+
+        text "Now press 'a'."
+
+    on "show" action Notify("The screen was just shown.")
+
+    key "a" action Notify("You pressed the 'a' key.")
