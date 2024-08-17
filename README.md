@@ -8,11 +8,16 @@
 [![build](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml)
 
-📖 Write visual novels with Ren'Py Template.
+⚖️ Play as an entrepreneur starting a business!
 
 Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
+
+## Ideation
+
+- [Excalidraw](https://excalidraw.com/#json=14bsj0P8n7aSDsj0kx8m0,nwOMIXvDpKPBRfKXID929w)
+- [Game Design Document](https://docs.google.com/document/d/12TN1zvyXvw51Xc1GbXCnBtvcRR2qjR-Qh1HAVmfVAPE/edit)
 
 ## Prerequisites
 
@@ -35,16 +40,6 @@ Clone the repository to the `Projects Directory`:
 ```sh
 git clone https://github.com/remarkablegames/built-to-scale.git
 cd built-to-scale
-```
-
-Rename the project:
-
-```sh
-git grep -l 'Built to Scale' | xargs sed -i '' -e 's/Built to Scale/My Novel/g'
-```
-
-```sh
-git grep -l 'Built to Scale' | xargs sed -i '' -e 's/built-to-scale/my-novel/g'
 ```
 
 ## Run
