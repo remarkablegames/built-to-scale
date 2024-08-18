@@ -1,5 +1,5 @@
 label activities:
-    scene bg living room night
+    scene bg bus stop morning
     with dissolve
 
     menu:
@@ -17,5 +17,5 @@ label activities:
         "Restaurant":
             jump restaurant
 
-        "Bed":
-            jump bed
+        "Home":
+            jump home

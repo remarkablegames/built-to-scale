@@ -12,7 +12,7 @@ label start:
     "I have to make {b}$[goal]{/b} for the business to be sustainable."
     "Let’s see how far I can go."
 
-    scene bg uni
+    scene bg modern office
     with fade
 
     show screen info
@@ -36,6 +36,6 @@ label start:
     angel "It’s not just about selling your product,{w=0.3} it’s about solving problems and making people’s lives better."
     angel "Keep your eyes on the prize and never stop believing in yourself."
     angel "“[business_name]” could be the start of something big."
-    angel smile "Now let’s get to work!"
+    angel smile "Before you get to work, let’s take a walk."
 
     jump stats_intro

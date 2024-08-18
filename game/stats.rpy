@@ -17,7 +17,7 @@ screen stats():
             use stat("Charisma", charisma)
 
 label stats_intro:
-    scene bg meadow
+    scene bg bus stop morning
     with fade
 
     show angel at scale(0.6), center

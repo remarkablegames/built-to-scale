@@ -1,4 +1,4 @@
-label bed:
+label home:
 
     scene bg living room night
     with dissolve
