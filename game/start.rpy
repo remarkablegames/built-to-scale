@@ -13,11 +13,11 @@ label start:
     with dissolve
 
     angel "Your application to start a business that sells scales looks good."
-    angel "Just confirming,{w=0.3} what’s your business called again?"
+    angel "Just confirming,{w=0.2} what’s your business called again?"
 
     python:
         business_name = renpy.input("My business name is...", length=32)
-        business_name = business_name.strip() or "Scale, Inc."
+        business_name = business_name.strip() or "Scales, Inc."
 
     angel smile "“[business_name]”...{w=0.5} It has a nice ring to it!"
 
@@ -25,7 +25,7 @@ label start:
 
     python:
         player_name = renpy.input("My first name is...", length=32)
-        player_name = player_name.strip() or "Player"
+        player_name = player_name.strip() or "Entrepreneur"
 
     angel "Congratulations, [player_name]!"
     angel "Remember that every successful business starts with a dream and a lot of hard work."
@@ -34,4 +34,4 @@ label start:
     angel "“[business_name]” could be the start of something amazing."
     angel smile "Now let’s get to work!"
 
-    jump stats
+    jump stats_intro
