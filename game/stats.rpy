@@ -4,7 +4,7 @@ default charisma = 0
 
 screen stat(name, amount):
     text "[name]: [amount]"
-    bar value StaticValue(amount, 100) xalign 0.5 xsize 300
+    bar value AnimatedValue(amount, 100) xalign 0.5 xsize 300
 
 screen stats():
     frame:
