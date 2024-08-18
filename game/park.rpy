@@ -1,6 +1,6 @@
 label park:
 
-    scene bg park
+    scene bg park day
     with dissolve
 
     menu:
