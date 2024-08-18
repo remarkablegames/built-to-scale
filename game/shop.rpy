@@ -1,6 +1,6 @@
-label restaurant:
+label shop:
 
-    scene bg restaurant
+    scene bg shop
     with dissolve
 
     menu:
@@ -12,7 +12,7 @@ label restaurant:
 
             "You had an energy drink."
 
-            jump restaurant
+            jump shop
 
         "Eat\n{color=#40e0d0}Energy +10{/color}, {color=#85bb65}Money -20{/color}" if money >= 20:
             $ energy += 20
@@ -20,7 +20,7 @@ label restaurant:
 
             "You had a good meal."
 
-            jump restaurant
+            jump shop
 
         "Go back":
             jump activities

@@ -14,8 +14,8 @@ label activities:
         "Office":
             jump office
 
-        "Restaurant":
-            jump restaurant
+        "Shop":
+            jump shop
 
         "Home":
             jump home
