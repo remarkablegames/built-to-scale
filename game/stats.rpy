@@ -23,7 +23,7 @@ label stats_intro:
     show angel at scale(0.6), center
     with dissolve
 
-    angel "I’m here to guide you as you start this exciting journey."
+    angel talking "I’m here to guide you as you start this exciting journey."
     angel "Every successful entrepreneur needs more than just business acumen..."
     angel "You’ll need to focus on three key areas:{w=0.2} {b}Energy{/b}{w=0.2}, {b}Intelligence{/b}{w=0.2}, and {b}Charisma{/b}."
 

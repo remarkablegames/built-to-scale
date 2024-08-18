@@ -1,4 +1,8 @@
+default player_name = "Entrepreneur"
+default business_name = "Scales, Inc."
+
 label start:
+
     "I’ve always had a dream..."
     "And that dream is to start a company that sells {b}scales{/b}."
     "Why {i}scales{/i}?{w=0.3} Because scales saved my life."
@@ -9,25 +13,23 @@ label start:
     scene bg uni
     with fade
 
+    show screen info
+
     show angel at scale(0.6), center
     with dissolve
 
-    angel "Your application to start a business that sells scales looks good."
-    angel "Just confirming,{w=0.2} what’s your business called again?"
+    angel "Hello,{w=0.1} I’ll be handling your application to start your business."
+    angel "What’s your business called?"
 
-    python:
-        business_name = renpy.input("My business name is...", length=32)
-        business_name = business_name.strip() or "Scales, Inc."
+    $ business_name = renpy.input("My business name is...", length=32).strip() or business_name
 
     angel smile "“[business_name]”...{w=0.5} It has a nice ring to it!"
 
-    angel "Everything’s in place,{w=0.3} please sign your first name so you can officially incorporate your business."
+    angel "The paperwork looks good,{w=0.2} please sign your name to finalize the incorporation."
 
-    python:
-        player_name = renpy.input("My first name is...", length=32)
-        player_name = player_name.strip() or "Entrepreneur"
+    $ player_name = renpy.input("My first name is...", length=32).strip() or player_name
 
-    angel "Congratulations, [player_name]!"
+    angel open smile "Congratulations, [player_name]!"
     angel "Remember that every successful business starts with a dream and a lot of hard work."
     angel "It’s not just about selling your product,{w=0.3} it’s about solving problems and making people’s lives better."
     angel "Keep your eyes on the prize and never stop believing in yourself."
