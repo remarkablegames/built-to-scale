@@ -1,10 +1,15 @@
 label day_start:
 
-    if days == 30:
-        call day_1
+    $ current_day = 30 - days + 1
+
+    if current_day == 1:
+        call day_01
 
     jump activities
 
 label day_end:
+
+    if days <= 0:
+        jump day_30
 
     jump day_start

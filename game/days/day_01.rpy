@@ -1,4 +1,4 @@
-label day_1:
+label day_01:
 
     scene bg room morning light off
     with fade
