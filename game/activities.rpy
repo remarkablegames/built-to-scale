@@ -5,8 +5,8 @@ label activities:
     menu:
         "Where do you want to go?"
 
-        "School":
-            jump school
+        "Library":
+            jump library
 
         "Park":
             jump park

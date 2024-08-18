@@ -1,4 +1,4 @@
-label school:
+label library:
 
     scene bg library
     with dissolve
@@ -12,7 +12,7 @@ label school:
 
             "You increased your understanding of the business."
 
-            jump school
+            jump library
 
         "Attend a lecture\n{color=#ffbf00}Intelligence +5{/color}, {color=#40e0d0}Energy -45{/color}" if energy >= 45:
             $ energy -= 45
@@ -20,7 +20,7 @@ label school:
 
             "You felt your business acumen increase."
 
-            jump school
+            jump library
 
         "Hire a private tutor\n{color=#ffbf00}Intelligence +7{/color}, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -50{/color}" if energy >= 35 and money >= 50:
             $ energy -= 35
@@ -29,7 +29,7 @@ label school:
 
             "You felt your intelligence increase by a lot."
 
-            jump school
+            jump library
 
         "Go back":
             jump activities
