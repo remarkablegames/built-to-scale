@@ -19,6 +19,7 @@ Play the game on:
 ### Art
 
 - [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
+- [Mad Scientist](https://twitter.com/mad_scientist92)
 
 ### Music
 
