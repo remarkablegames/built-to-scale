@@ -4,6 +4,8 @@ label day_start:
 
     if current_day == 1:
         call day_01
+    elif current_day == 3:
+        call day_03
     elif current_day == 5:
         call day_05
     elif current_day == 8:
