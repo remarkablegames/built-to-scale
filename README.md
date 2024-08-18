@@ -14,6 +14,16 @@ Play the game on:
 
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
 
+## Credits
+
+### Art
+
+- [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
+
+### Music
+
+- Guilain de Coligny
+
 ## Ideation
 
 - [Excalidraw](https://excalidraw.com/#json=14bsj0P8n7aSDsj0kx8m0,nwOMIXvDpKPBRfKXID929w)
