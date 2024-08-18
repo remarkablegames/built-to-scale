@@ -11,6 +11,11 @@ label day_start:
     elif current_day == 8:
         call day_08
 
+    stop music fadeout 1
+    queue music electro_2c fadein 0.7
+    queue music electro_2d
+    queue music [electro_2e, electro_2f]
+
     jump activities
 
 label day_end:

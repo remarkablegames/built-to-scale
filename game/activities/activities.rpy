@@ -1,4 +1,5 @@
 label activities:
+
     scene bg bus stop morning
     with dissolve
 
