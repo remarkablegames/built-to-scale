@@ -10,6 +10,9 @@ label bed:
             $ energy = 100
             $ days -= 1
 
+            scene black
+            with fade
+
             "You had a good night’s rest."
 
             jump day_end

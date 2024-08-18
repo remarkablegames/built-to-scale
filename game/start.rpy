@@ -10,7 +10,7 @@ label start:
     "But I don’t have much time left..."
     "I’m graduating in {b}30 days{/b}."
     "I have to make {b}$[goal]{/b} for the business to be sustainable."
-    "Let’s see how far I can take this."
+    "Let’s see how far I can go."
 
     scene bg uni
     with fade
