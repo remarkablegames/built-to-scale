@@ -1,6 +1,6 @@
 label office:
 
-    scene bg club
+    scene bg office
     with dissolve
 
     $ sales = 10 + intelligence + charisma
