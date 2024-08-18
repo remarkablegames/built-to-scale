@@ -4,6 +4,10 @@ label day_start:
 
     if current_day == 1:
         call day_01
+    elif current_day == 5:
+        call day_05
+    elif current_day == 8:
+        call day_08
 
     jump activities
 
