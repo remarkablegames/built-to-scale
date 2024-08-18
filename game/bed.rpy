@@ -6,7 +6,7 @@ label bed:
     menu:
         "What do you want to do?"
 
-        "Sleep\n(Energy +100)":
+        "Sleep\n{color=#40e0d0}Energy +100{/color}":
             $ energy = 100
             $ days -= 1
 
