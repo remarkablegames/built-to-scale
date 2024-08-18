@@ -10,7 +10,7 @@ label activities_intro:
 
     "Your phone buzzes with a notification – an email from a potential supplier."
 
-    player "But as Lao Tzu once said, {i}The journey of a thousand miles begins with one step.{/i}"
+    player "But as Lao Tzu once said, “{i}The journey of a thousand miles begins with one step.{/i}”"
 
     show riley surprised at scale(0.9), center
     with dissolve
@@ -25,7 +25,7 @@ label activities_intro:
 
     riley "Why don't we take a break? Sometimes it's good to clear your head. What do you say – want to study, hit the gym, or head over to the shop?"
 
-    jump activities
+    jump day_start
 
 label activities:
     scene bg living room night
@@ -48,7 +48,3 @@ label activities:
 
         "Bed":
             jump bed
-
-label activities_outro:
-
-    return

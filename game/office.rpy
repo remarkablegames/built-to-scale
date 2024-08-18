@@ -9,7 +9,7 @@ label office:
     menu:
         "What do you want to do?"
 
-        "Sales\n(Money +[sales], Energy -10)":
+        "Sales\n{color=#85bb65}Money +[sales]{/color}, {color=#40e0d0}Energy -10{/color}":
             $ energy -= 10
             $ money += amount
 
@@ -17,7 +17,7 @@ label office:
 
             jump office
 
-        "Marketing\n(Money +[marketing], Energy -25)":
+        "Marketing\n{color=#85bb65}Money +[marketing]{/color}, {color=#40e0d0}Energy -25{/color}":
             $ energy -= 25
             $ money += marketing
 

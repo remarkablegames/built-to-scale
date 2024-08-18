@@ -6,7 +6,7 @@ label restaurant:
     menu:
         "What do you want to do?"
 
-        "Drink\n(Energy +5, Money -10)":
+        "Drink\n{color=#40e0d0}Energy +5{/color}, {color=#85bb65}Money -10{/color}":
             $ energy += 5
             $ money -= 10
 
@@ -14,7 +14,7 @@ label restaurant:
 
             jump restaurant
 
-        "Eat\n(Energy +10, Money -20)":
+        "Eat\n{color=#40e0d0}Energy +10{/color}, {color=#85bb65}Money -20{/color}":
             $ energy += 20
             $ money -= 10
 

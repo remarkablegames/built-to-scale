@@ -12,7 +12,7 @@ label bed:
 
             "You had a good night’s rest."
 
-            jump activities
+            jump day_end
 
         "Go back":
             jump activities

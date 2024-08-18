@@ -6,7 +6,7 @@ label school:
     menu:
         "What do you want to do?"
 
-        "Study\n(Intelligence +1, Energy -10)":
+        "Study\n{color=#ffbf00}Intelligence +1{/color}, {color=#40e0d0}Energy -10{/color}":
             $ energy -= 10
             $ intelligence += 1
 
@@ -14,7 +14,7 @@ label school:
 
             jump school
 
-        "Attend a lecture\n(Intelligence +5, Energy -45)":
+        "Attend a lecture\n{color=#ffbf00}Intelligence +5{/color}, {color=#40e0d0}Energy -45{/color}":
             $ energy -= 45
             $ intelligence += 5
 
@@ -22,7 +22,7 @@ label school:
 
             jump school
 
-        "Hire a private tutor\n(Intelligence +7, Energy -35, Money -50)":
+        "Hire a private tutor\n{color=#ffbf00}Intelligence +7{/color}, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -50{/color}":
             $ energy -= 35
             $ money -= 50
             $ intelligence += 7
