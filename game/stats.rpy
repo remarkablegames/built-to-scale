@@ -108,4 +108,4 @@ label location_outro:
     angel "Remember, success doesn’t just come from hard work,{w=0.2} it comes from working smart, balancing your time, and knowing when to push forward and when to rest."
     angel "You got this!"
 
-    jump actions
+    jump activities_intro
