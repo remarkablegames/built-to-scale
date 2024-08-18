@@ -4,6 +4,8 @@ default goal = 250000
 
 label start:
 
+    play music electro_1 fadein 1
+
     "I’ve always had a dream..."
     "And that dream is to start a company that sells {b}scales{/b}."
     "Why {i}scales{/i}?{w=0.3} Because scales saved my life."
@@ -11,6 +13,10 @@ label start:
     "I’m graduating in {b}30 days{/b}."
     "I have to make {b}$[goal]{/b} for the business to be sustainable."
     "Let’s see how far I go."
+
+    stop music fadeout 1
+    queue music electro_2a
+    queue music electro_2b
 
     scene bg modern office
     with fade
@@ -29,7 +35,12 @@ label start:
 
     mentor "The paperwork is done,{w=0.2} please sign your name to incorporate your company."
 
+    queue music electro_2c
+
     $ player_name = renpy.input("My first name is...", length=32).strip() or player_name
+
+    queue music electro_2d
+    queue music [electro_2e, electro_2f]
 
     mentor smile2 "Congratulations, [player_name]!"
     mentor "Remember that every successful business starts with a dream and a lot of hard work."
