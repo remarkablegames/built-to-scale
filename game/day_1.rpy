@@ -1,6 +1,6 @@
 label day_1:
 
-    scene bg living room night
+    scene bg room morning light off
     with fade
 
     show riley smile at scale(0.9), center
