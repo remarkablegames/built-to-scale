@@ -1,6 +1,6 @@
 label home:
 
-    scene bg living room night
+    scene bg room morning light off
     with dissolve
 
     menu:
