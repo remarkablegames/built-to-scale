@@ -78,7 +78,7 @@ label location_explanation:
 
         "Dorm":
             mentor "Your dorm is your home and where you can sit back and relax."
-            mentor "You'll be able to sleep here and spend time with your roommate, Riley."
+            mentor "You'll be able to sleep here and spend time with your roommate, [friend.name]."
 
             jump location_explanation
 
