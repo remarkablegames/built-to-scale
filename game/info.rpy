@@ -1,4 +1,3 @@
-default days = 30
 default equity = 100
 default money = 0
 default profit_reduction_days = 0
@@ -11,7 +10,7 @@ screen info():
         xalign 1.0 ypos 0
         vbox:
             text "Days Left: [days]"
-            bar value AnimatedValue(days, 30) xalign 0.5 xsize 300
+            bar value AnimatedValue(days, days_total) xalign 0.5 xsize 300
             null height 15
 
             text "Equity: [equity]%"

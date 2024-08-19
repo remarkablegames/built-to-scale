@@ -10,7 +10,7 @@ label start:
     "And that dream is to start a company that sells {b}scales{/b}."
     "Why {i}scales{/i}?{w=0.3} Because scales saved my life."
     "But I don’t have much time left..."
-    "I’m graduating in {b}30 days{/b}."
+    "I’m graduating in {b}[days_total] days{/b}."
     "I have to make {b}$[goal:,]{/b} for the business to be sustainable."
     "Let’s see how far I go."
 

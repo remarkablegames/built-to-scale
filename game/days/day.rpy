@@ -1,6 +1,9 @@
+default days = 21
+default days_total = days
+
 label day_start:
 
-    $ today = 30 - days + 1
+    $ today = days_total - days + 1
 
     if today == 1:
         call day_01
@@ -44,24 +47,6 @@ label day_start:
         call day_20
     elif today == 21:
         call day_21
-    elif today == 22:
-        call day_22
-    elif today == 23:
-        call day_23
-    elif today == 24:
-        call day_24
-    elif today == 25:
-        call day_25
-    elif today == 26:
-        call day_26
-    elif today == 27:
-        call day_27
-    elif today == 28:
-        call day_28
-    elif today == 29:
-        call day_29
-    elif today == 30:
-        call day_30
 
     stop music fadeout 1
     queue music electro_2c fadein 1
@@ -87,6 +72,6 @@ label day_end:
             "The bulk material discount period has ended, and your profits have returned to normal."
 
     if days <= 0:
-        jump day_30
+        jump day_21
 
     jump day_start
