@@ -5,7 +5,7 @@ label day_start:
     if today == 1:
         call day_01
     elif today == 2:
-        pass
+        call day_02
     elif today == 3:
         call day_03
     elif today == 4:
