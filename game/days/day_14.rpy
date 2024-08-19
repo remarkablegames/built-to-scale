@@ -8,7 +8,7 @@ label day_14:
 
     "As you’re reviewing your sales reports, you notice something unexpected."
 
-    player "Wait... these numbers can't be right."
+    player "Wait... these numbers can’t be right."
 
     show mentor smile2
     with dissolve

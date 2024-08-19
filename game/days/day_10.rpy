@@ -6,12 +6,12 @@ label day_10:
     scene bg office
     with fade
 
-    "As you're working in your office, you receive a call. It's [competitor.name]."
+    "As you’re working in your office, you receive a call. It’s [competitor.name]."
 
     show competitor comeon
     with dissolve
 
-    competitor "Well, well, [player_name]. Did you really think I wouldn't notice you trying to creep into {b}my{/b} territory?"
+    competitor "Well, well, [player_name]. Did you really think I wouldn’t notice you trying to creep into {b}my{/b} territory?"
     
     player "[competitor.name]... what are you doing?"
 
@@ -23,7 +23,7 @@ label day_10:
 
     show competitor comeon
 
-    competitor "By the end of this week, [business_name] will be nothing but a distant memory, and I’ll be there to pick up the pieces. You can count on it."
+    competitor "By the end of this week, “[business_name]” will be nothing but a distant memory, and I’ll be there to pick up the pieces. You can count on it."
 
     hide competitor 
     with dissolve
@@ -86,7 +86,7 @@ label day_10:
                     player "This isn’t over, [competitor.name]..."
 
             else:
-                "You don't have enough money to launch the counterattack."
+                "You don’t have enough money to launch the counterattack."
 
         "Play It Safe.":
             player "I can’t afford to take that kind of risk right now. I’ll focus on keeping my business stable."
@@ -98,6 +98,6 @@ label day_10:
 
     hide competitor with dissolve
 
-    "The call ends, and the tension lingers in the air. You've made your decision, but the stakes are higher than ever."
+    "The call ends, and the tension lingers in the air. You’ve made your decision, but the stakes are higher than ever."
 
     return

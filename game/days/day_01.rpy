@@ -9,7 +9,7 @@ label day_01:
     show friend
     with dissolve
 
-    player "This is stressful. I know dreams are achievable only through hard work and dedication, but I feel like I don't know where to begin."
+    player "This is stressful. I know dreams are achievable only through hard work and dedication, but I feel like I don’t know where to begin."
 
     "Your phone buzzes with a notification – an email from a potential supplier."
 
@@ -23,6 +23,6 @@ label day_01:
 
     player "Thanks. I know I’ll need every bit of support I can get."
 
-    friend @ confident2 "Why don't we take a break? Sometimes it's good to clear your head. What do you say – want to study, hit the gym, or head over to the shop?"
+    friend @ confident2 "Why don’t we take a break? Sometimes it’s good to clear your head. What do you say – want to study, hit the gym, or head over to the shop?"
 
     return

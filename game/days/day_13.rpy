@@ -17,19 +17,19 @@ label day_13:
 
     show friend smirk
 
-    player "{i}There's no way... she can't be...{/i}"
+    player "{i}There’s no way... she can’t be...{/i}"
 
     player "Wow, she’s something, but she seems really driven."
 
-    player "Did she mention what kind of business she's in?"
+    player "Did she mention what kind of business she’s in?"
 
     friend confident "Something about scales, I think? Just like you!"
 
-    player "You don't say. "
+    player "You don’t say. "
 
     friend confident4 "Anyway, I thought I’d mention it. She’s got big plans."
 
-    player "I'm sure she does."
+    player "I’m sure she does."
 
     hide friend with dissolve
 

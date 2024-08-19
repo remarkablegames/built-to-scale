@@ -6,15 +6,15 @@ label day_06:
     scene bg office
     with fade
 
-    "Your phone rings unexpectedly. It's Jasper."
+    "Your phone rings unexpectedly. It’s Jasper."
 
     player "Hello?"
 
-    mentor "Good day, [player_name]. It's Jasper. I’ve been watching your progress, and I'm impressed."
+    mentor "Good day, [player_name]. It’s Jasper. I’ve been watching your progress, and I’m impressed."
 
     player "Thanks, I appreciate it."
     
-    mentor "I'm willing to invest $1,500 into your company immediately."
+    mentor "I’m willing to invest $1,500 into your company immediately."
     
     mentor "However, in return, I am requesting 20%% ownership of your business for the next 10 days."
 
@@ -31,13 +31,13 @@ label day_06:
             $ profit_reduction_days = 10
             $ profit_reduction = 0.8
 
-            player "I could use the cash to expand. Let's do it."
+            player "I could use the cash to expand. Let’s do it."
             mentor "The money has been transferred. Remember, your profits will be reduced by 20%% for the next 10 days, and your equity has decreased."
 
         "Decline the offer.":
             player "I’m not comfortable giving up control of my company, even for a short period. I’ll have to decline."
-            mentor "That's fine. Remember, opportunities like this don’t come often. Best of luck with your venture."
+            mentor "That’s fine. Remember, opportunities like this don’t come often. Best of luck with your venture."
 
-    "The call ends. You've made your decision, but what impact will it have on your business?"
+    "The call ends. You’ve made your decision, but what impact will it have on your business?"
 
     return

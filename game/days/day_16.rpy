@@ -20,7 +20,7 @@ label day_16:
 
     if outcome:
         $ money += 500
-        player "I can't believe it! I just won {color=#85bb65}$500{/color}!"
+        player "I can’t believe it! I just won {color=#85bb65}$500{/color}!"
     else:
         player "No luck this time. It was worth a shot, though."
 

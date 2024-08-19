@@ -9,7 +9,7 @@ label day_15:
     show mentor smile2 at right
     with dissolve
 
-    mentor "Well done, [player_name]! You've reached the halfway point. You're doing well!"
+    mentor "Well done, [player_name]! You’ve reached the halfway point. You’re doing well!"
 
     player "Thanks, [mentor.name]. I appeciate your help."
 
@@ -20,7 +20,7 @@ label day_15:
 
     player "[friend.name]! Great to see you. Come on in, let me introduce you to someone."
 
-    player "[friend.name], this is my mentor, [mentor.name]. He's been helping me with the business."
+    player "[friend.name], this is my mentor, [mentor.name]. He’s been helping me with the business."
 
     friend "Nice to meet you! [player_name] talks about you all the time."
 
@@ -92,6 +92,6 @@ label day_15:
     hide mentor
     with dissolve
 
-    "As [competitor.name] leaves, the tension lingers. [friend.name] looks shaken, but your resolve only hardens. [competitor.name]'s games are getting more dangerous, and you need to stay sharp."
+    "As [competitor.name] leaves, the tension lingers. [friend.name] looks shaken, but your resolve only hardens. [competitor.name]’s games are getting more dangerous, and you need to stay sharp."
 
     return
