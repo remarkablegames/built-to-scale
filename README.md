@@ -20,10 +20,12 @@ Play the game on:
 
 - [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
 - [Mad Scientist](https://twitter.com/mad_scientist92)
+- Photo by [Andrew Neel](https://unsplash.com/@andrewtneel) on [Unsplash](https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw)
 
-### Music
+### Audio
 
 - Guilain de Coligny
+- [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 
 ## Ideation
 
