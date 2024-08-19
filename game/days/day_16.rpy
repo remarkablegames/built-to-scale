@@ -13,14 +13,14 @@ label day_16:
 
     "You scratch the ticket nervously, anticipation building."
 
-    $ outcome = renpy.random.choice(["win", "lose"])
+    $ outcome = renpy.random.choice([True, False])
 
-    if outcome == "win":
+    if outcome:
         $ money += 500
         player "I can't believe it! I just won {color=#85bb65}$500{/color}!"
     else:
         player "No luck this time. It was worth a shot, though."
-    
+
     "You continue working throughout the day, ready for whatever comes your way."
 
     return
