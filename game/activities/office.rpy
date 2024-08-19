@@ -13,6 +13,13 @@ label office:
         $ sales = base_sales
         $ marketing = base_marketing
 
+    if profit_boost_days > 0:
+        $ sales = int(base_sales * profit_boost)
+        $ marketing = int(base_marketing * profit_boost)
+    else:
+        $ sales = base_sales
+        $ marketing = base_marketing
+
     menu:
         "What do you want to do?"
 

@@ -33,7 +33,7 @@ label day_10:
     mentor "I’ve gathered some information about [competitor.name]’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
 
     menu:
-        "Launch a Counterattack (Money -$3,000).":
+        "Launch a Counterattack ({color=#85bb65}Money -$3,000{/color}).":
             if money >= 3000:
                 $ money -= 3000
                 $ outcome = random.choice(["success", "failure"])

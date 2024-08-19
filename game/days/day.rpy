@@ -20,6 +20,16 @@ label day_start:
         call day_09
     elif current_day == 10:
         call day_10
+    elif current_day == 11:
+        call day_11
+    elif current_day == 12:
+        call day_12
+    elif current_day == 13:
+        call day_13
+    elif current_day == 14:
+        call day_14
+    elif current_day == 15:
+        call day_15
 
     stop music fadeout 1
     queue music electro_2c fadein 1
@@ -36,6 +46,13 @@ label day_end:
         if profit_reduction_days == 0:
             $ profit_reduction = 1.0
             "Your temporary ownership deal has expired, and your profits have returned to normal."
+    
+    if profit_boost_days > 0:
+        $ profit_boost_days -= 1
+
+        if profit_boost_days == 0:
+            $ profit_boost = 1.0
+            "The bulk material discount period has ended, and your profits have returned to normal."
 
     if days <= 0:
         jump day_30

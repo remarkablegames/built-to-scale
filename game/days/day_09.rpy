@@ -19,7 +19,7 @@ label day_09:
                 $ profit_reduction = 0.85
 
                 player "I think this acquisition will help my business grow in the long run. Let's do it."
-                "You acquire the company for $2,000. However, the integration process causes some disruptions, reducing your profits by 15% for the next 5 days."
+                "You acquire the company for $2,000. However, the integration process causes some disruptions, reducing your profits by 15%% for the next 5 days."
             else:
                 "You don't have enough money to acquire the company."
 

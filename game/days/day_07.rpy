@@ -23,7 +23,7 @@ label day_07:
             else:
                 "You don't have enough money to hire the PR firm."
 
-        "Ignore the rumors (30% profit reduction for 3 days).":
+        "Ignore the rumors (30%% profit reduction for 3 days).":
             $ profit_reduction_days = 3
             $ profit_reduction = 0.7
             

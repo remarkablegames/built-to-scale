@@ -6,23 +6,23 @@ label day_06:
     scene bg office
     with fade
 
-    "Your phone rings unexpectedly. The caller ID is blocked."
+    "Your phone rings unexpectedly. It's Jasper."
 
     player "Hello?"
 
-    "Good day, [player_name]. I'm calling on behalf of a group of investors. We’ve been watching your progress, and we’re impressed."
+    mentor "Good day, [player_name]. It's Jasper. I’ve been watching your progress, and I'm impressed."
 
-    player "Who is this?"
-
-    "Who I am is not important. What matters is the opportunity I am offering."
+    player "Thanks, I appreciate it."
     
-    "We’re willing to invest $1,500 into your company immediately. However, in return, we require 20%% ownership of your business for the next 10 days."
+    mentor "I'm willing to invest $1,500 into your company immediately."
+    
+    mentor "However, in return, I am requesting 20%% ownership of your business for the next 10 days."
 
     player "And what happens after 10 days?"
 
-    "You will regain full control, but until then, your profits will be reduced by 20%%."
+    mentor "You will regain full control, but until then, your profits will be reduced by 20%%."
     
-    "The decision is yours. A small price to pay for such a boost, wouldn’t you agree?"
+    mentor "The decision is yours. A small price to pay for such a boost, wouldn’t you agree?"
 
     menu:
         "Accept the investment.":
@@ -32,11 +32,11 @@ label day_06:
             $ profit_reduction = 0.8
 
             player "I could use the cash to expand. Let's do it."
-            "The money has been transferred. Remember, your profits will be reduced by 20%% for the next 10 days, and your equity has decreased."  # Fixed the percentage
+            mentor "The money has been transferred. Remember, your profits will be reduced by 20%% for the next 10 days, and your equity has decreased."
 
         "Decline the offer.":
             player "I’m not comfortable giving up control of my company, even for a short period. I’ll have to decline."
-            "Suit yourself. Remember, opportunities like this don’t come often. Best of luck with your venture."
+            mentor "That's fine. Remember, opportunities like this don’t come often. Best of luck with your venture."
 
     "The call ends. You've made your decision, but what impact will it have on your business?"
 
