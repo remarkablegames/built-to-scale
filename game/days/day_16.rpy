@@ -13,7 +13,7 @@ label day_16:
 
     "You scratch the ticket nervously, anticipation building."
 
-    $ outcome = random.choice(["win", "lose"])
+    $ outcome = renpy.random.choice(["win", "lose"])
 
     if outcome == "win":
         $ money += 500
