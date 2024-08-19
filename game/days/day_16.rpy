@@ -1,5 +1,8 @@
 label day_16:
 
+    stop music fadeout 1
+    queue music orchestral_waltz
+
     scene bg bus stop morning
     with fade
 

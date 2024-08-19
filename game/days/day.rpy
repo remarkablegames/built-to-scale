@@ -4,6 +4,8 @@ label day_start:
 
     if today == 1:
         call day_01
+    elif today == 2:
+        pass
     elif today == 3:
         call day_03
     elif today == 4:
@@ -41,23 +43,23 @@ label day_start:
     elif today == 20:
         call day_20
     elif today == 21:
-        pass
+        call day_21
     elif today == 22:
-        pass
+        call day_22
     elif today == 23:
-        pass
+        call day_23
     elif today == 24:
-        pass
+        call day_24
     elif today == 25:
-        pass
+        call day_25
     elif today == 26:
-        pass
+        call day_26
     elif today == 27:
-        pass
+        call day_27
     elif today == 28:
-        pass
+        call day_28
     elif today == 29:
-        pass
+        call day_29
     elif today == 30:
         call day_30
 
@@ -76,7 +78,7 @@ label day_end:
         if profit_reduction_days == 0:
             $ profit_reduction = 1.0
             "Your temporary ownership deal has expired, and your profits have returned to normal."
-    
+
     if profit_boost_days > 0:
         $ profit_boost_days -= 1
 
