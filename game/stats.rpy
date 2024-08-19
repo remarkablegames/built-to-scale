@@ -23,7 +23,7 @@ label stats_intro:
     show mentor
     with dissolve
 
-    mentor @ thinking "I’m here to guide you as you start this exciting journey."
+    mentor @ thinking "I’m here to guide you as you start this journey."
     mentor @ thinking "Every successful entrepreneur needs more than just business acumen..."
     mentor "You’ll need to focus on three key areas:{w=0.2} {b}Energy{/b}{w=0.2}, {b}Intelligence{/b}{w=0.2}, and {b}Charisma{/b}."
 
@@ -33,7 +33,7 @@ label stats_explanation:
     show screen stats
 
     menu:
-        mentor "What would you like me to explain?"
+        mentor "What would you like to know more of?"
 
         "Energy":
             mentor "Without energy, you won’t have the stamina to make it through the day."
@@ -63,10 +63,10 @@ label stats_outro:
     mentor "Make sure to balance your tasks wisely!"
 
     mentor "If you find yourself running low on energy,{w=0.1} don’t worry!"
-    mentor "You can always grab an energy drink to keep yourself going."
+    mentor @ aha "You can always recharge at the shop or after a good night’s rest."
     mentor "And when you earn enough money,{w=0.2} you’ll be able to purchase all sorts of useful items that can help you stay ahead."
 
-    mentor "So are you ready to start?"
+    mentor @ mad smile "So are you ready to start?"
     mentor "Remember, success doesn’t just come from hard work,{w=0.2} it comes from working smart, balancing your time, and knowing when to push forward and when to rest."
     mentor smile "You got this!"
 

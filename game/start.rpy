@@ -2,7 +2,6 @@ default player_name = "Entrepreneur"
 default business_name = "Scales, Inc."
 default goal = 100000
 
-
 label start:
 
     play music electro_1 fadein 1
@@ -12,7 +11,7 @@ label start:
     "Why {i}scales{/i}?{w=0.3} Because scales saved my life."
     "But I don’t have much time left..."
     "I’m graduating in {b}30 days{/b}."
-    "I have to make {b}$100,000{/b} for the business to be sustainable."
+    "I have to make {b}$[goal:,]{/b} for the business to be sustainable."
     "Let’s see how far I go."
 
     stop music fadeout 1
@@ -48,6 +47,6 @@ label start:
     mentor "It’s not just about selling your product,{w=0.3} it’s about solving problems and making people’s lives better."
     mentor "Keep your eyes on the prize and never stop believing in yourself."
     mentor "“[business_name]” could be the start of something big."
-    mentor smile "Before you get to work, let’s take a walk."
+    mentor smile "Before you get to work, let’s take a quick detour."
 
     jump stats_intro

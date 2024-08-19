@@ -23,6 +23,6 @@ label day_01:
 
     player "Thanks. I know I’ll need every bit of support I can get."
 
-    friend "Why don't we take a break? Sometimes it's good to clear your head. What do you say – want to study, hit the gym, or head over to the shop?"
+    friend @ confident2 "Why don't we take a break? Sometimes it's good to clear your head. What do you say – want to study, hit the gym, or head over to the shop?"
 
     return

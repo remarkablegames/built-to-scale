@@ -16,7 +16,7 @@ label day_start:
         call day_08
 
     stop music fadeout 1
-    queue music electro_2c fadein 0.7
+    queue music electro_2c fadein 1
     queue music electro_2d
     queue music [electro_2e, electro_2f]
 
