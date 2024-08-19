@@ -58,47 +58,7 @@ label stats_explanation:
             jump stats_outro
 
 label stats_outro:
-
-    mentor "Throughout the day,{w=0.1} you’ll be traveling to different locations like the library,{w=0.2} the dorm,{w=0.2} the business office,{w=0.2} the gym,{w=0.2} and even the local shop."
-    mentor "Each location offers you a chance to boost a stat in different ways."
-    mentor "But remember,{w=0.1} every action will consume your time and energy."
-
-    jump location_explanation
-
-label location_explanation:
-
-    menu:
-        mentor "What would you like to know more about?"
-
-        "Library":
-            mentor "A place where you can study to increase your intelligence."
-            mentor "That's why business smarts are important."
-
-            jump location_explanation
-
-        "Dorm":
-            mentor "Your dorm is your home and where you can sit back and relax."
-            mentor "You'll be able to sleep here and spend time with your roommate, [friend.name]."
-
-            jump location_explanation
-
-        "Office":
-            mentor "This is your office at [business_name]. Here, you're able to sell your product and earn money."
-            mentor "The amount of money you earn will depend on various stats; higher intelligence, charisma, and energy, will result in more lucrative deals."
-
-            jump location_explanation
-        
-        "Gym":
-            mentor "You can go to the gym to exercise and increase your charisma. Staying healthy is the best way to maintain a clear mind and body."
-            mentor "As a reminder, higher charisma will result in greater sales."
-
-            jump location_explanation
-
-        "Continue":
-            jump location_outro
-
-label location_outro:
-
+   
     mentor "The day will end when you either run out of energy or it’s too late to keep working."
     mentor "Make sure to balance your tasks wisely!"
 
