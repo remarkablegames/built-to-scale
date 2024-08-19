@@ -5,32 +5,29 @@ label day_10:
 
     "As you're working in your office, you receive a call. It's Ava."
 
-    show competitor comeon at center
+    show competitor comeon
     with dissolve
 
     competitor "Well, well, [player_name]. Did you really think I wouldn't notice you trying to creep into {b}my{/b} territory?"
     
     player "Ava... what are you doing?"
 
-    show competitor doubt at center
-    with dissolve
+    competitor doubt "What I’m doing is putting you out of business. You’ve made it this far, but now it’s time for you to step aside. This industry isn’t big enough for both of us."
 
-    competitor "What I’m doing is putting you out of business. You’ve made it this far, but now it’s time for you to step aside. This industry isn’t big enough for both of us."
-
-    show competitor naruhodo at center
-    with dissolve
+    show competitor naruhodo
 
     "Ava laughs, the sound sending a chill down your spine."
 
-    show competitor comeon at center
-    with dissolve
+    show competitor comeon
 
     competitor "By the end of this week, [business_name] will be nothing but a distant memory, and I’ll be there to pick up the pieces. You can count on it."
 
     hide competitor 
     with dissolve
 
-    show mentor at center
+    pause 1.0
+
+    show mentor
     with dissolve
 
     mentor "I’ve gathered some information about Ava’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
@@ -50,15 +47,14 @@ label day_10:
                     hide mentor 
                     with dissolve 
 
-                    show competitor naruhodo at center
+                    show competitor naruhodo
                     with dissolve
-                    
+
                     competitor "Hah! You think you can beat me? You’re in for a rude awakening, [player_name]."
 
                     "Your counterattack is a success! Ava’s business falters, and your profits will increase by 50%% for the next 7 days."
 
-                    show competitor argue2 at center
-                    with dissolve
+                    show competitor argue2
 
                     competitor "No... this can’t be happening. You... how did you...?"
 
@@ -73,15 +69,14 @@ label day_10:
                     hide mentor 
                     with dissolve 
 
-                    show competitor naruhodo at center
+                    show competitor naruhodo
                     with dissolve
 
                     competitor "A chance? Oh please, you’re just handing me victory on a silver platter."
 
                     "Unfortunately, the counterattack backfires. You lose $3,000 and your profits will be reduced by 25%% for the next 7 days."
 
-                    show competitor comeon at center
-                    with dissolve
+                    show competitor comeon
 
                     competitor "I told you, [player_name]. You never stood a chance against me. Enjoy watching your little business crumble."
 

@@ -10,22 +10,20 @@ label day_03:
 
     player "Come in..."
 
-    show competitor comeon at center
+    show competitor comeon
     with dissolve
 
     competitor "Well, well, well. So this is the little office where all the noise is coming from."
 
     player "Who are you?"
 
-    show competitor naruhodo at center
-    with dissolve
+    show competitor naruhodo
 
     competitor smirk "Oh, I’m sorry. How rude of me. I'm Ava. You can consider me your competitor. I run a real business in this town. Scales, you say? Cute. But don’t get too comfortable."
 
     player "What do you mean by that?"
 
-    show competitor comeon at center
-    with dissolve
+    show competitor comeon
 
     competitor "I mean, it’s only a matter of time before your little operation folds. You see, I have the resources, the connections, and, well... the brains. What do you have? Hope?"
 

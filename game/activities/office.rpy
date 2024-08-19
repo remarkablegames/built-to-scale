@@ -4,7 +4,7 @@ label office:
     with dissolve
 
     $ base_sales = 10 + intelligence + charisma
-    $ base_marketing = base_sales + int((intelligence + charisma) * 5.0)
+    $ base_marketing = base_sales + int((intelligence + charisma) * 2)
 
     if profit_reduction_days > 0:
         $ sales = int(base_sales * profit_reduction)
