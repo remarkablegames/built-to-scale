@@ -30,6 +30,8 @@ label day_start:
         call day_14
     elif current_day == 15:
         call day_15
+    elif current_day == 16:
+        call day_16
 
     stop music fadeout 1
     queue music electro_2c fadein 1
