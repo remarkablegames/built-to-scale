@@ -27,7 +27,7 @@ label library:
             $ money -= 50
             $ intelligence += 7
 
-            "You felt your intelligence increase by a lot."
+            "You felt your intelligence increase significantly."
 
             jump library
 

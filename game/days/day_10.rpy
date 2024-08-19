@@ -3,20 +3,20 @@ label day_10:
     scene bg office
     with fade
 
-    "As you're working in your office, you receive a call. It's Ava."
+    "As you're working in your office, you receive a call. It's [competitor.name]."
 
     show competitor comeon
     with dissolve
 
     competitor "Well, well, [player_name]. Did you really think I wouldn't notice you trying to creep into {b}my{/b} territory?"
     
-    player "Ava... what are you doing?"
+    player "[competitor.name]... what are you doing?"
 
     competitor doubt "What I’m doing is putting you out of business. You’ve made it this far, but now it’s time for you to step aside. This industry isn’t big enough for both of us."
 
     show competitor naruhodo
 
-    "Ava laughs, the sound sending a chill down your spine."
+    "[competitor.name] laughs, the sound sending a chill down your spine."
 
     show competitor comeon
 
@@ -30,7 +30,7 @@ label day_10:
     show mentor
     with dissolve
 
-    mentor "I’ve gathered some information about Ava’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
+    mentor "I’ve gathered some information about [competitor.name]’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
 
     menu:
         "Launch a Counterattack (Money -$3,000).":
@@ -42,7 +42,7 @@ label day_10:
                     $ profit_boost_days = 7
                     $ profit_boost = 1.5
 
-                    player "I’m not going down without a fight, Ava. Let’s see who comes out on top."
+                    player "I’m not going down without a fight, [competitor.name]. Let’s see who comes out on top."
 
                     hide mentor 
                     with dissolve 
@@ -52,13 +52,13 @@ label day_10:
 
                     competitor "Hah! You think you can beat me? You’re in for a rude awakening, [player_name]."
 
-                    "Your counterattack is a success! Ava’s business falters, and your profits will increase by 50%% for the next 7 days."
+                    "Your counterattack is a success! [competitor.name]’s business falters, and your profits will increase by 50%% for the next 7 days."
 
                     show competitor argue2
 
                     competitor "No... this can’t be happening. You... how did you...?"
 
-                    player "Looks like you underestimated me, Ava."
+                    player "Looks like you underestimated me, [competitor.name]."
 
                 else:
                     $ profit_reduction_days = 7
@@ -80,7 +80,7 @@ label day_10:
 
                     competitor "I told you, [player_name]. You never stood a chance against me. Enjoy watching your little business crumble."
 
-                    player "This isn’t over, Ava..."
+                    player "This isn’t over, [competitor.name]..."
 
             else:
                 "You don't have enough money to launch the counterattack."
@@ -90,7 +90,7 @@ label day_10:
 
             competitor "How pathetic. You’re just going to roll over and let me win? Suit yourself, [player_name]. When this is all over, there will only be one company standing, and it won’t be yours."
 
-            mentor "Sometimes playing it safe is the right call, but remember, Ava won’t stop coming after you."
+            mentor "Sometimes playing it safe is the right call, but remember, [competitor.name] won’t stop coming after you."
             "You decide to play it safe, avoiding confrontation but missing out on a potential opportunity."
 
     hide competitor with dissolve

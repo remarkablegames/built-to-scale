@@ -5,7 +5,7 @@ label day_07:
 
     "You receive a troubling notification – a competitor has started spreading negative rumors about your business online."
 
-    player "This has got to be Ava? Why is she doing this?"
+    player "This has got to be [competitor.name]? Why is she doing this?"
 
     "The rumors are quickly spreading, and it's affecting your brand's reputation. You need to act fast."
 

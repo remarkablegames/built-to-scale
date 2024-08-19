@@ -27,7 +27,7 @@ label park:
             $ money -= 50
             $ charisma += 7
 
-            "You felt your charisma increase by a lot."
+            "You felt your charisma increase significantly."
 
             jump park
 

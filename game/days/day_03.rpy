@@ -19,7 +19,7 @@ label day_03:
 
     show competitor naruhodo
 
-    competitor smirk "Oh, I’m sorry. How rude of me. I'm Ava. You can consider me your competitor. I run a real business in this town. Scales, you say? Cute. But don’t get too comfortable."
+    competitor smirk "Oh, I’m sorry. How rude of me. I'm [competitor.name]. You can consider me your competitor. I run a real business in this town. Scales, you say? Cute. But don’t get too comfortable."
 
     player "What do you mean by that?"
 
@@ -38,6 +38,6 @@ label day_03:
     hide competitor 
     with dissolve 
 
-    "The door slams shut as Ava leaves, her words echoing in the air. It looks like you’ve made your first enemy."
+    "The door slams shut as [competitor.name] leaves, her words echoing in the air. It looks like you’ve made your first enemy."
 
     return
