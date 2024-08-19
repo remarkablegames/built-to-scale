@@ -12,15 +12,19 @@ label day_02:
     friend @ confident "I got an extra book from the library today."
 
     menu:
-        "Which one would you like to read?"
+        friend "Which one would you like to read?"
 
         "Book on Intelligence\n{color=#ffbf00}Intelligence +1{/color}":
             $ intelligence += 1
+
+            show friend confident2
 
             "You felt your intelligence go up."
 
         "Book on Charisma\n{color=#ccccff}Charisma +1{/color}":
             $ charisma += 1
+
+            show friend confident3
 
             "You felt your charisma go up."
 
