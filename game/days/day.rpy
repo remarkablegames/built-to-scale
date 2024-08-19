@@ -1,37 +1,65 @@
 label day_start:
 
-    $ current_day = 30 - days + 1
+    $ today = 30 - days + 1
 
-    if current_day == 1:
+    if today == 1:
         call day_01
-    elif current_day == 3:
+    elif today == 3:
         call day_03
-    elif current_day == 4:
+    elif today == 4:
         call day_04
-    elif current_day == 5:
+    elif today == 5:
         call day_05
-    elif current_day == 6:
+    elif today == 6:
         call day_06
-    elif current_day == 7:
+    elif today == 7:
         call day_07
-    elif current_day == 8:
+    elif today == 8:
         call day_08
-    elif current_day == 9:
+    elif today == 9:
         call day_09
-    elif current_day == 10:
+    elif today == 10:
         call day_10
-    elif current_day == 11:
+    elif today == 11:
         call day_11
-    elif current_day == 12:
+    elif today == 12:
         call day_12
-    elif current_day == 13:
+    elif today == 13:
         call day_13
-    elif current_day == 14:
+    elif today == 14:
         call day_14
-    elif current_day == 15:
+    elif today == 15:
         call day_15
-    elif current_day == 16:
+    elif today == 16:
         call day_16
+    elif today == 17:
+        call day_17
+    elif today == 18:
+        call day_18
+    elif today == 19:
+        call day_19
+    elif today == 20:
+        call day_20
+    elif today == 21:
+        pass
+    elif today == 22:
+        pass
+    elif today == 23:
+        pass
+    elif today == 24:
+        pass
+    elif today == 25:
+        pass
+    elif today == 26:
+        pass
+    elif today == 27:
+        pass
+    elif today == 28:
+        pass
+    elif today == 29:
+        pass
+    elif today == 30:
+        call day_30
 
     stop music fadeout 1
     queue music electro_2c fadein 1

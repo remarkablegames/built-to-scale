@@ -1,6 +1,3 @@
-init python:
-    import random
-
 label day_08:
 
     stop music fadeout 1
@@ -29,9 +26,9 @@ label day_08:
     menu:
         "Yes, partner with the company.":
 
-            $ outcome = random.choice(["success", "failure"])
+            $ outcome = renpy.random.choice([True, False])
 
-            if outcome == "success":
+            if outcome:
                 $ money += 200
                 player "This could be the boost I need to take my business to the next level. Let's go for it."
                 "You sign the partnership agreement, and the collaboration pays off. Their resources boost your business, and you earn $200 from the partnership!"

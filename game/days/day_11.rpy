@@ -1,5 +1,8 @@
 label day_11:
 
+    stop music fadeout 1
+    queue music orchestral_waltz
+
     scene bg office
     with fade
 

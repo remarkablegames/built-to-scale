@@ -1,6 +1,3 @@
-init python:
-    import random
-
 label day_05:
 
     stop music fadeout 1
@@ -9,7 +6,7 @@ label day_05:
     scene bg office
     with fade
 
-    show mentor at center
+    show mentor
     with dissolve
 
     mentor "Listen, I have an offer from a company. It's risky but promising. Would you like to invest $100?"
@@ -20,9 +17,17 @@ label day_05:
                 $ money -= 100
                 mentor "Great! I'll let you know how it goes."
 
-                $ outcome = random.choice(["success", "failure"])
+                hide mentor
+                with dissolve
 
-                if outcome == "success":
+                pause 1.0
+
+                show mentor
+                with dissolve
+
+                $ outcome = renpy.random.choice([True, False])
+
+                if outcome:
                     $ money += 250
                     mentor "Good news! The investment paid off. You earned $250!"
                 else:
