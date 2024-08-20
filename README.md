@@ -15,6 +15,8 @@ Play the game on:
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
 
+Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
+
 ## Credits
 
 ### Art
