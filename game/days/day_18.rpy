@@ -1,6 +1,3 @@
-init python:
-    import random
-
 label day_18:
 
     scene bg office
@@ -38,9 +35,9 @@ label day_18:
     if money >= 5000:
         menu:
             "Accept the challenge.":
-                $ outcome = random.choice(["success", "failure"])
+                $ outcome = renpy.random.choice([True, False])
 
-                if outcome == "success":
+                if outcome:
                     $ money += 5000
                     $ profit_boost_days = 4
                     $ profit_boost = 1.5

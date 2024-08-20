@@ -11,18 +11,20 @@ label day_02:
 
     friend @ confident "I got an extra book from the library today."
 
+    $ dice_roll = renpy.random.randint(1, 6)
+
     menu:
         friend "Which one would you like to read?"
 
-        "Book on Intelligence\n{color=#ffbf00}Intelligence +1{/color}":
-            $ intelligence += 1
+        "Book on Intelligence\n{color=#ffbf00}Intelligence +[dice_roll]{/color}":
+            $ intelligence += dice_roll
 
             show friend confident2
 
             "You felt your intelligence go up."
 
-        "Book on Charisma\n{color=#ccccff}Charisma +1{/color}":
-            $ charisma += 1
+        "Book on Charisma\n{color=#ccccff}Charisma +[dice_roll]{/color}":
+            $ charisma += dice_roll
 
             show friend confident3
 

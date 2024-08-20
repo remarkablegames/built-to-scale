@@ -17,11 +17,11 @@ label home:
         "What do you want to do?"
 
         "Sleep\n{color=#40e0d0}Energy +100{/color}":
+            scene bg room night light off
+            with dissolve
+
             $ energy = 100
             $ days -= 1
-
-            scene bg room night light off
-            with fade
 
             "You had a good night’s rest."
 
