@@ -32,6 +32,10 @@ Play the game on:
 - [rotary phone ring medium](https://pixabay.com/sound-effects/rotary-phone-ring-medium-103869/)
 - [Cell Phone Vibrate (High Quality)](https://pixabay.com/sound-effects/cell-phone-vibrate-high-quality-34034/)
 
+### Font
+
+- [Queensides Font](https://www.fontspace.com/queensides-font-f90306)
+
 ## Ideation
 
 - [Excalidraw](https://excalidraw.com/#json=14bsj0P8n7aSDsj0kx8m0,nwOMIXvDpKPBRfKXID929w)
