@@ -10,7 +10,7 @@ label shop:
             $ energy += 5
             $ money -= 10
 
-            "You had an energy drink."
+            "You drank an energy drink."
 
             jump shop
 
@@ -18,7 +18,7 @@ label shop:
             $ energy += 20
             $ money -= 10
 
-            "You had a good meal."
+            "You ate a delicious meal."
 
             jump shop
 

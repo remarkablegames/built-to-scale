@@ -37,7 +37,7 @@ label office:
             $ money += marketing
             $ time += 2
 
-            "You made more sales."
+            "You launched a marketing campaign."
 
             jump office
 

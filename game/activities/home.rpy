@@ -17,6 +17,8 @@ label home:
         "What do you want to do?"
 
         "Sleep\n{color=#40e0d0}Energy +100{/color}":
+            stop music fadeout 3
+
             scene bg room night light off
             with dissolve
 
