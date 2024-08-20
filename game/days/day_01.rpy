@@ -3,7 +3,7 @@ label day_01:
     stop music fadeout 1
     queue music orchestral_waltz
 
-    scene bg room morning light off
+    scene bg room morning
     with fade
 
     player "I know dreams are achieved through hard work and dedication,{w=0.3} but have no idea where to begin."

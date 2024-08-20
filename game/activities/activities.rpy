@@ -5,10 +5,10 @@ label activities:
     if time < 12:
         scene bg bus stop morning
         with dissolve
-    elif time < 5:
+    elif time < 4:
         scene bg bus stop noon
         with dissolve
-    elif time < 10:
+    elif time < 8:
         scene bg bus stop evening
         with dissolve
     else:

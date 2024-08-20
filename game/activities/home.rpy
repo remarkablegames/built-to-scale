@@ -1,7 +1,17 @@
 label home:
 
-    scene bg room morning light off
-    with dissolve
+    if time < 12:
+        scene bg room morning
+        with dissolve
+    elif time < 4:
+        scene bg room noon
+        with dissolve
+    elif time < 8:
+        scene bg room evening
+        with dissolve
+    else:
+        scene bg room night
+        with dissolve
 
     menu:
         "What do you want to do?"

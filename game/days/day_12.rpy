@@ -3,7 +3,7 @@ label day_12:
     stop music fadeout 1
     queue music orchestral_waltz
 
-    scene bg room morning light off
+    scene bg room morning
     with fade
 
     show friend
