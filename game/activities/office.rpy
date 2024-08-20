@@ -26,6 +26,7 @@ label office:
         "Sales\n{color=#85bb65}Money +[sales]{/color}, {color=#40e0d0}Energy -10{/color}" if energy >= 10:
             $ energy -= 15
             $ money += sales
+            $ time += 1
 
             "You made some sales."
 
@@ -34,6 +35,7 @@ label office:
         "Marketing\n{color=#85bb65}Money +[marketing]{/color}, {color=#40e0d0}Energy -25{/color}" if energy >= 25:
             $ energy -= 25
             $ money += marketing
+            $ time += 2
 
             "You made more sales."
 

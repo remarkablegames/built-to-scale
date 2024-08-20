@@ -9,6 +9,7 @@ label park:
         "Cardio\n{color=#ccccff}Charisma +1{/color}, {color=#40e0d0}Energy -10{/color}" if energy >= 10:
             $ energy -= 10
             $ charisma += 1
+            $ time += 1
 
             "You increased your charisma."
 
@@ -17,6 +18,7 @@ label park:
         "Attend a workout class\n{color=#ccccff}Charisma +5{/color}, {color=#40e0d0}Energy -45{/color}" if energy >= 45:
             $ energy -= 45
             $ charisma += 5
+            $ time += 2
 
             "You greatly increased your charisma."
 
@@ -26,6 +28,7 @@ label park:
             $ energy -= 35
             $ money -= 50
             $ charisma += 7
+            $ time += 3
 
             "You felt your charisma increase significantly."
 

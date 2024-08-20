@@ -9,6 +9,7 @@ label library:
         "Study\n{color=#ffbf00}Intelligence +1{/color}, {color=#40e0d0}Energy -10{/color}" if energy >= 10:
             $ energy -= 10
             $ intelligence += 1
+            $ time += 1
 
             "You increased your understanding of the business."
 
@@ -17,6 +18,7 @@ label library:
         "Attend a lecture\n{color=#ffbf00}Intelligence +5{/color}, {color=#40e0d0}Energy -45{/color}" if energy >= 45:
             $ energy -= 45
             $ intelligence += 5
+            $ time += 2
 
             "You felt your business acumen increase."
 
@@ -26,6 +28,7 @@ label library:
             $ energy -= 35
             $ money -= 50
             $ intelligence += 7
+            $ time += 3
 
             "You felt your intelligence increase significantly."
 

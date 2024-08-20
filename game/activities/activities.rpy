@@ -1,7 +1,19 @@
+default time = 0
+
 label activities:
 
-    scene bg bus stop morning
-    with dissolve
+    if time < 12:
+        scene bg bus stop morning
+        with dissolve
+    elif time < 5:
+        scene bg bus stop noon
+        with dissolve
+    elif time < 10:
+        scene bg bus stop evening
+        with dissolve
+    else:
+        scene bg bus stop night
+        with dissolve
 
     menu:
         "Where do you want to go?"
