@@ -14,8 +14,8 @@ label day_21:
         with dissolve
 
         mentor "I knew you had it in you, [player_name]." 
-        mentor "You didn't just meet the goal—you crushed it." 
-        mentor "Full control, a healthy bank account, and a growing business. The future's yours to shape."
+        mentor "You didn’t just meet the goal—you crushed it."
+        mentor "Full control, a healthy bank account, and a growing business. The future’s yours to shape."
 
         show friend at left, flip
         with dissolve
@@ -30,11 +30,11 @@ label day_21:
 
         player "It’s over when I say it’s over, [competitor.name]. And right now, I’m just getting started."
 
-        mentor "You're no longer just a dreamer. You’re a true entrepreneur." 
+        mentor "You’re no longer just a dreamer. You’re a true entrepreneur."
         mentor "Congratulations, [player_name]."
         mentor "The road ahead will be challenging, but you’ve shown you can handle anything."
 
-        player "Thanks, [mentor.name]. Looks like we're built to scale."
+        player "Thanks, [mentor.name]. Looks like we’re built to scale."
 
     elif equity == 100 and money < goal:
         player "I managed to keep full control of the company, but with less than $[goal:,] in the bank... it doesn’t feel like a total victory."
@@ -54,15 +54,15 @@ label day_21:
         with dissolve
 
         competitor "Full control but less than $[goal:,]? You barely made it." 
-        competitor "Don't get too comfortable, [player_name]. Next time, you won’t be so lucky."
+        competitor "Don’t get too comfortable, [player_name]. Next time, you won’t be so lucky."
 
         player "I may not have hit every mark, but I’m still here." 
         player "And with full control of the company, I’ll keep pushing forward."
 
-        mentor "You've still got the reins, [player_name]." 
+        mentor "You’ve still got the reins, [player_name]."
         mentor "With determination and careful planning, you can turn things around and grow the business even more."
 
-        player "You're right. I may not be where I want to be yet, but I still have control of my company, and that’s something."
+        player "You’re right. I may not be where I want to be yet, but I still have control of my company, and that’s something."
 
     elif equity < 100 and money >= goal:
         player "I’ve made it. Over $[goal:,] in the bank, but at what cost?" 
@@ -72,13 +72,13 @@ label day_21:
         show friend at left, flip
         with dissolve
 
-        friend "You crushed your money goal, [player_name]! Don't let the equity part bring you down."
+        friend "You crushed your money goal, [player_name]! Don’t let the equity part bring you down."
 
         show mentor smile
         with dissolve
 
         mentor "You’ve done an impressive job, [player_name]. With over $[goal:,], your business is in a strong position." 
-        mentor "But remember, you no longer have full control. You’ll have to work with others to shape [business_name]'s future."
+        mentor "But remember, you no longer have full control. You’ll have to work with others to shape “[business_name]”’s future."
 
         show competitor sadsmile at right
         with dissolve
@@ -91,7 +91,7 @@ label day_21:
 
         mentor "True. You adapted, made tough decisions, and built something strong." 
         mentor "Keep your head up, [player_name]." 
-        mentor "Even with shared control, you can still steer [business_name] to greatness."
+        mentor "Even with shared control, you can still steer “[business_name]” to greatness."
 
         player "I know. I just have to keep fighting for what I believe in." 
         player "The business may not be entirely mine, but the vision is."
@@ -107,7 +107,7 @@ label day_21:
         show friend at left, flip
         with dissolve 
 
-        friend "You did your best, [player_name]. We'll go for walk to cheer you up."
+        friend "You did your best, [player_name]. We’ll go for walk to cheer you up."
 
         mentor "I know this isn’t the outcome you were hoping for, [player_name]." 
         mentor "You fought hard, but sometimes the road to success is longer and harder than we expect." 
@@ -149,7 +149,7 @@ label day_21:
     scene black
     with fade
 
-    "The future of your business may be uncertain,{w=0.2} but one thing is clear:{w=0.3} you're not done yet."
+    "The future of your business may be uncertain,{w=0.2} but one thing is clear:{w=0.3} you’re not done yet."
     "Your journey continues, and the lessons you’ve learned will guide you for the rest of your life."
 
     "{b}End{/b}."

@@ -9,7 +9,7 @@ label day_10:
     show mentor smile2 at right
     with dissolve
 
-    mentor "Well done, [player_name]!{w=0.2} You're just about at the halfway point.{w=0.2} You're doing well!"
+    mentor "Well done, [player_name]!{w=0.2} You’re just about at the halfway point.{w=0.2} You’re doing well!"
 
     player "Thanks, [mentor.name].{w=0.2} I appeciate your help."
 

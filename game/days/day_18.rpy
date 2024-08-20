@@ -6,7 +6,7 @@ label day_18:
     scene bg office
     with fade
 
-    "As you’re working late into the night, your door swings open. It's [competitor.name]."
+    "As you’re working late into the night, your door swings open. It’s [competitor.name]."
 
     player "{alpha=0.7}(thinking){/alpha} {i}What is it now?{/i}"
 
@@ -83,7 +83,7 @@ label day_18:
         show competitor mock2
 
         competitor "How unfortunate for you. Well, when you’re ready to play with the big leagues, come find me."
-        "You missed out on [competitor.name]'s challenge, but perhaps it was for the best."
+        "You missed out on [competitor.name]’s challenge, but perhaps it was for the best."
 
     hide competitor with dissolve
     "With the conversation over, you reflect on your decision and prepare for the days ahead."

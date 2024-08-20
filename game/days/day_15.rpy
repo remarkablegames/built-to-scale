@@ -9,7 +9,7 @@ label day_15:
     show mentor smile2 at right
     with dissolve
 
-    mentor "Good to see you again, [player_name]!{w=0.3} You're doing well!"
+    mentor "Good to see you again, [player_name]!{w=0.3} You’re doing well!"
 
     player "Thanks, [mentor.name].{w=0.2} I appeciate your help."
 

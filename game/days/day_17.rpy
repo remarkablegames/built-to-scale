@@ -54,6 +54,6 @@ label day_17:
     
     hide competitor with dissolve
 
-    "The day ends. You're surprised at the amount of attention your business is gaining."
+    "The day ends. You’re surprised at the amount of attention your business is gaining."
 
     return

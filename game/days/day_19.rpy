@@ -8,18 +8,18 @@ label day_19:
 
     play sound ring
 
-    "You're reviewing your latest business reports when you receive a call."
+    "You’re reviewing your latest business reports when you receive a call."
 
     player "Hello?"
 
-    "Good day, [player_name]. I'm here on behalf of a large corporation that's taken notice of your success in the scales industry."
+    "Good day, [player_name]. I’m here on behalf of a large corporation that’s taken notice of your success in the scales industry."
 
     player "What can I do for you?"
 
     "We have a very interesting offer for you. We would like to acquire 40%% of your business for a cool $10,000."
-    "It's a win-win situation.{w=0.3} An infusion of capital for you, and a strategic partnership for us."
+    "It’s a win-win situation.{w=0.3} An infusion of capital for you, and a strategic partnership for us."
 
-    player "{alpha=0.7}(thinking){/alpha} {i}40%% of my company?{w=0.3} That's a huge chunk...{/i}"
+    player "{alpha=0.7}(thinking){/alpha} {i}40%% of my company?{w=0.3} That’s a huge chunk...{/i}"
 
     "Of course, this is a limited-time offer. If you accept, we can wire the funds immediately. But, naturally, you’ll have to relinquish some control over your business."
 
@@ -32,7 +32,7 @@ label day_19:
         "Accept the offer ({color=#85bb65}+$10,000{/color}, -40%% equity).":
             $ equity -= 40
             $ money += 10000
-            player "It's a tough decision, but I could use the cash injection. I'll accept the offer."
+            player "It’s a tough decision, but I could use the cash injection. I’ll accept the offer."
             "Excellent decision, [player_name]. The funds will be transferred right away. Welcome to a new partnership."
             "You’ve sold 40%% of your company for $10,000. However, with reduced equity, your control over the business has weakened. Keep an eye on this corporation—they might have their sights on more than just a partnership."
 
