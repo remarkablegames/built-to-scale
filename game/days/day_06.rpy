@@ -6,6 +6,8 @@ label day_06:
     scene bg office
     with fade
 
+    play sound ring
+
     "Your phone rings unexpectedly. It’s Jasper."
 
     player "Hello?"

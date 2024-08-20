@@ -2,7 +2,9 @@ label day_17:
 
     scene bg office
     with fade
-
+ 
+    play sound ring
+    
     "As you’re winding down for the day, your phone rings. It’s an unfamiliar number."
 
     player "Hello?"
