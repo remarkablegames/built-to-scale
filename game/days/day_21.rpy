@@ -74,13 +74,16 @@ label day_21:
 
         player "I gave everything, but in the end, it feels like I’ve lost more than I’ve gained. I don’t know if I can keep going like this."
 
+        show competitor argue2 at right
+        with dissolve
+
         competitor "Business is brutal. Trust me, I know. It doesn’t always go the way we want. But you’re a fighter, and even if I don’t show it, I respect that."
 
         mentor "Don’t let this be the end. You’ve learned valuable lessons, and you’re still standing. There’s a way forward, but it may take more time and even tougher decisions."
 
         player "Maybe you’re right. Maybe this isn’t the end, just... another challenge. I’m not ready to give up, but it’s hard to see the path forward right now."
 
-        show competitor sadsmile at center
+        show competitor sadsmile at right
 
         competitor "You’re stronger than you think, [player_name]. You’ve still got something left in you, even if it doesn’t feel like it right now. Just don’t lose sight of who you are."
 
