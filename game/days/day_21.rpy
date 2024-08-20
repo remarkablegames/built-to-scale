@@ -30,7 +30,7 @@ label day_21:
         mentor "Congratulations, [player_name]."
         mentor "The road ahead will be challenging, but you’ve shown you can handle anything."
 
-        player "Thanks, [mentor.name]. Let’s see just how far we can go."
+        player "Thanks, [mentor.name]. Looks like we're built to scale."
 
     elif equity == 100 and money < goal:
         player "I managed to keep full control of the company, but with less than $[goal:,] in the bank... it doesn’t feel like a total victory."
@@ -137,14 +137,17 @@ label day_21:
         competitor "You’ve still got something left in you, even if it doesn’t feel like it right now." 
         competitor "Just don’t lose sight of who you are."
 
-        player "I won’t give up. Not yet. I’ve come this far, and I’ll find a way to turn this around."
+        player "Guess the business is not built to scale."
 
     hide mentor
     hide competitor
     hide friend
     with dissolve
 
+    scene black
+    with fade
+
     "The future of your business may be uncertain, but one thing is clear: you're not done yet." 
-    "Your journey continues, and the lessons you’ve learned will guide you forward."
+    "Your journey continues, and the lessons you’ve learned will guide you forever."
 
     return
