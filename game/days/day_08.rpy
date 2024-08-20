@@ -6,6 +6,8 @@ label day_08:
     scene bg office
     with fade
 
+    play sound buzz
+
     "Your phone buzzes with a notification. It’s an email from a company you’ve never heard of before."
 
     "Dear [player_name],"

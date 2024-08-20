@@ -8,6 +8,8 @@ label day_01:
 
     player "I know dreams are achieved through hard work and dedication,{w=0.3} but have no idea where to begin."
 
+    play sound buzz
+
     "Your phone buzzes with a notification{w=0.3}—an email from a potential supplier."
 
     player "But as Laozi once said,{w=0.3} “{i}A journey of a thousand miles begins with a single step.{/i}”"
