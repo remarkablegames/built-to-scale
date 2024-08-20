@@ -6,6 +6,13 @@ label day_10:
     scene bg office
     with fade
 
+    show mentor smile2 at right
+    with dissolve
+
+    mentor "Well done, [player_name]! You're just about at the halfway point. You're doing well!"
+
+    player "Thanks, [mentor.name]. I appeciate your help."
+
     "As you’re working in your office, you receive a call. It’s [competitor.name]."
 
     show competitor comeon
