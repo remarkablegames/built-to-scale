@@ -1,7 +1,11 @@
 label park:
 
-    scene bg park day
-    with dissolve
+    if time < 6:
+        scene bg park day
+        with dissolve
+    else:
+        scene bg park night
+        with dissolve
 
     menu:
         "What do you want to do?"
