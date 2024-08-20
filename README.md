@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/remarkablegames/built-to-scale/master/game/gui/window_icon.png" alt="Built to Scale">
+  <img src="https://raw.githubusercontent.com/remarkablegames/built-to-scale/master/design/cover.jpg" width="450px" alt="Built to Scale">
 </p>
 
 # Built to Scale
