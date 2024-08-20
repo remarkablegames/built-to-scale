@@ -6,16 +6,16 @@ label activities:
     menu:
         "Where do you want to go?"
 
-        "Library":
+        "{color=#ffbf00}Library{/color}":
             jump library
 
-        "Park":
+        "{color=#ccccff}Park{/color}":
             jump park
 
-        "Office":
+        "{color=#85bb65}Office{/color}":
             jump office
 
-        "Shop":
+        "{color=#40e0d0}Shop{/color}":
             jump shop
 
         "Home":

@@ -17,14 +17,19 @@ screen stats():
             use stat("Charisma", charisma)
 
 label stats_intro:
+
+    stop music fadeout 1
+    queue music electro_2d fadein 1
+
     scene bg bus stop morning
     with fade
 
     show mentor
     with dissolve
 
-    mentor @ thinking "I’m here to guide you as you start this journey."
-    mentor @ thinking "Every successful entrepreneur needs more than just business acumen..."
+    queue music [electro_2e, electro_2f]
+
+    mentor @ thinking "What are the steps to success?"
     mentor "You’ll need to focus on three key areas:{w=0.2} {b}Energy{/b}{w=0.2}, {b}Intelligence{/b}{w=0.2}, and {b}Charisma{/b}."
 
     jump stats_explanation
@@ -33,24 +38,23 @@ label stats_explanation:
     show screen stats
 
     menu:
-        mentor "What would you like to know more of?"
+        mentor "What do you want to know?"
 
-        "Energy":
-            mentor "Without energy, you won’t have the stamina to make it through the day."
-            mentor "Every action you take, from traveling between locations to attending meetings or working out, will require energy."
-            mentor "Make sure to keep an eye on this, or you might find yourself running out of steam before the day’s over."
-
-            jump stats_explanation
-
-        "Intelligence":
-            mentor "This is going to be crucial when it comes to studying, making smart decisions, and staying ahead of the curve in the business world."
-            mentor "You’ll need to work on this if you want to master your craft."
+        "{color=#40e0d0}Energy{/color}":
+            mentor @ thinking "You’ll need energy to accomplish all your tasks for the day."
+            mentor "Every action,{w=0.2} from making sales to working out,{w=.2} requires energy."
 
             jump stats_explanation
 
-        "Charisma":
-            mentor "Charisma will help you charm your way through social interactions, connect with potential clients, and increase your sales."
-            mentor "Whether it’s networking at events or simply getting people to believe in your vision, your charisma is your secret weapon."
+        "{color=#ffbf00}Intelligence{/color}":
+            mentor @ thinking "The higher your intelligence, the more sales you will make."
+            mentor "Smarts can also unlock new business opportunities."
+
+            jump stats_explanation
+
+        "{color=#ccccff}Charisma{/color}":
+            mentor "Charisma is a multiplier for marketing and sales."
+            mentor "You can use this skill to charm competitors and clients."
 
             jump stats_explanation
 
@@ -58,16 +62,10 @@ label stats_explanation:
             jump stats_outro
 
 label stats_outro:
-   
-    mentor "The day will end when you either run out of energy or it’s too late to keep working."
-    mentor "Make sure to balance your tasks wisely!"
 
-    mentor "If you find yourself running low on energy,{w=0.1} don’t worry!"
-    mentor @ aha "You can always recharge at the shop or after a good night’s rest."
-    mentor "And when you earn enough money,{w=0.2} you’ll be able to purchase all sorts of useful items that can help you stay ahead."
-
-    mentor @ mad smile "So are you ready to start?"
-    mentor "Remember, success doesn’t just come from hard work,{w=0.2} it comes from working smart, balancing your time, and knowing when to push forward and when to rest."
-    mentor smile "You got this!"
+    mentor @ thinking "You can end the day when you’re out of energy."
+    mentor aha "If you’re low on energy,{w=0.1} check out the shop or go to sleep."
+    mentor "Success is the result of luck, preparation, and choices you’ve made."
+    mentor smile2 "Good luck!"
 
     jump day_start

@@ -1,14 +1,16 @@
 label day_03:
 
     stop music fadeout 1
-    queue music orchestral_waltz
 
     scene bg office
     with fade
 
+    play sound kock
     "You hear a knock on the door."
 
     player "Come in..."
+
+    play music orchestral_waltz
 
     show competitor comeon
     with dissolve

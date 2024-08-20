@@ -31,22 +31,16 @@ label start:
 
     $ business_name = renpy.input("My business name is...", length=32).strip() or business_name
 
-    mentor smile "“[business_name]”...{w=0.5} It has a nice ring to it!"
+    mentor smile "“[business_name]”{w=0.1}.{w=0.1}.{w=0.1}.{w=0.5} It has a nice ring to it!"
 
-    mentor "The paperwork is done,{w=0.2} please sign your name to incorporate your company."
-
-    queue music electro_2c
+    mentor "The paperwork’s done,{w=0.2} please sign your name to incorporate your company."
 
     $ player_name = renpy.input("My first name is...", length=32).strip() or player_name
 
-    queue music electro_2d
-    queue music [electro_2e, electro_2f]
-
     mentor smile2 "Congratulations, [player_name]!"
     mentor "Remember that every successful business starts with a dream and a lot of hard work."
-    mentor "It’s not just about selling your product,{w=0.3} it’s about solving problems and making people’s lives better."
-    mentor "Keep your eyes on the prize and never stop believing in yourself."
-    mentor "“[business_name]” could be the start of something big."
+    mentor "It’s not just about selling your product,{w=0.2} but about solving problems to make people’s lives better."
+    mentor "“[business_name]” could be the next big thing."
     mentor smile "Before you get to work, let’s take a quick detour."
 
     jump stats_intro
