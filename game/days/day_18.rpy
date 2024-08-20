@@ -1,11 +1,14 @@
 label day_18:
 
+    stop music fadeout 1
+    queue music orchestral_waltz
+
     scene bg office
     with fade
 
     "As you’re working late into the night, your door swings open. It's [competitor.name]."
 
-    player "{i}What is it now?{/i}"
+    player "{alpha=0.7}(thinking){/alpha} {i}What is it now?{/i}"
 
     show competitor comeon
     with dissolve
@@ -22,15 +25,19 @@ label day_18:
     competitor "I’ve just secured a deal with a huge supplier, but they’re willing to work with either one of us." 
     competitor "I could let you have it — if you beat me in a sales challenge."
 
-    player "{i}A challenge...{/i}"
+    player "{alpha=0.7}(thinking){/alpha} {i}A challenge...{/i}"
+
+    show competitor think talking
+
+    competitor "The terms are simple."
 
     show competitor talking 
 
-    competitor "The terms are simple: First, whoever makes the most sales in the next 48 hours gets the supplier. Second..."
+    competitor "First, whoever makes the most sales in the next 48 hours gets the supplier."
 
     show competitor comeon
 
-    competitor "The loser gives the winner $5,000. Are you in?"
+    competitor "Second, the loser gives the winner $5,000. Are you in?"
 
     if money >= 5000:
         menu:

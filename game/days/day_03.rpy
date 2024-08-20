@@ -6,6 +6,7 @@ label day_03:
     with fade
 
     play sound knock
+
     "You hear a knock on the door."
 
     player "Come in..."

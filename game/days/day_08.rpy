@@ -1,14 +1,17 @@
 label day_08:
 
     stop music fadeout 1
-    queue music orchestral_waltz
 
     scene bg office
     with fade
 
     play sound buzz
 
-    "Your phone buzzes with a notification. It’s an email from a company you’ve never heard of before."
+    "Your phone buzzes with a notification."
+
+    queue music orchestral_waltz
+
+    "It’s an email from a company you’ve never heard of before."
 
     "Dear [player_name],"
 
@@ -20,7 +23,7 @@ label day_08:
 
     "Are you interested in joining forces with us?"
 
-    show mentor at center
+    show mentor
     with dissolve
 
     mentor "This could be a big opportunity, but there’s always a risk when it comes to partnerships. What would you like to do?"

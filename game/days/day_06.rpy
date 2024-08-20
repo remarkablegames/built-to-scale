@@ -8,23 +8,24 @@ label day_06:
 
     play sound ring
 
-    "Your phone rings unexpectedly. It’s Jasper."
+    "Your phone rings unexpectedly."
 
     player "Hello?"
 
-    mentor "Good day, [player_name]. It’s Jasper. I’ve been watching your progress, and I’m impressed."
+    mentor "Good day, [player_name].{w=0.3} It’s Jasper."
+    mentor "I’ve been watching your progress, and I’m impressed."
 
     player "Thanks, I appreciate it."
     
     mentor "I’m willing to invest $1,500 into your company immediately."
     
-    mentor "However, in return, I am requesting 20%% ownership of your business for the next 10 days."
+    mentor "However, in return, I request 20%% ownership of your business for the next 10 days."
 
     player "And what happens after 10 days?"
 
-    mentor "You will regain full control, but until then, your profits will be reduced by 20%%."
+    mentor "You will regain full control,{w=0.2} but until then, your profits will be reduced by 20%%."
     
-    mentor "The decision is yours. A small price to pay for such a boost, wouldn’t you agree?"
+    mentor "The decision is yours.{w=0.3} A small price to pay for such a boost, wouldn’t you agree?"
 
     menu:
         "Accept the investment.":

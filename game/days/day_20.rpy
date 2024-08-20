@@ -1,11 +1,15 @@
 label day_20:
 
+    stop music fadeout 1
+
     scene bg office
     with fade
 
     "As you sit in your office, lost in thought about your business and the future, [mentor.name] enters with a serious expression on his face."
 
-    show mentor thinking at center
+    queue music orchestral_waltz
+
+    show mentor thinking
     with dissolve
 
     mentor thinking "Hey, [player_name], I’ve been thinking a lot about your situation."

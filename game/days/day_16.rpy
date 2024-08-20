@@ -8,11 +8,11 @@ label day_16:
 
     "As you’re walking down the street, you spot something on the ground."
 
-    player "Is that... a lotto ticket?"
+    player "Is that...{w=0.3} a lotto ticket?"
 
-    "You pick it up and examine it. It’s unscratched, a potential stroke of luck."
+    "You pick it up and examine it.{w=0.2} It’s unscratched, a potential stroke of luck."
 
-    player "Well, I guess there’s only one way to find out if this is my lucky day."
+    player "Well, I guess there’s only one way to find out if today is my lucky day."
 
     "You scratch the ticket nervously, anticipation building."
 

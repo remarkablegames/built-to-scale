@@ -17,7 +17,7 @@ label day_13:
 
     show friend smirk
 
-    player "{i}There’s no way... she can’t be...{/i}"
+    player "{alpha=0.7}(thinking){/alpha} {i}There’s no way... it can’t be...{/i}"
 
     player "Wow, she’s something, but she seems really driven."
 

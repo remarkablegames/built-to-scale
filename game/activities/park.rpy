@@ -28,7 +28,7 @@ label park:
 
             jump park
 
-        "Hire a private trainer\n{color=#ccccff}Charisma +7, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -50{/color}" if energy >= 35 and money >= 50:
+        "Hire a private trainer\n{color=#ccccff}Charisma +7, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -$50{/color}" if energy >= 35 and money >= 50:
             $ energy -= 35
             $ money -= 50
             $ charisma += 7

@@ -28,7 +28,7 @@ label library:
 
             jump library
 
-        "Hire a private tutor\n{color=#ffbf00}Intelligence +7{/color}, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -50{/color}" if energy >= 35 and money >= 50:
+        "Hire a private tutor\n{color=#ffbf00}Intelligence +7{/color}, {color=#40e0d0}Energy -35{/color}, {color=#85bb65}Money -$50{/color}" if energy >= 35 and money >= 50:
             play sound writing
 
             $ energy -= 35

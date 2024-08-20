@@ -10,12 +10,15 @@ label day_09:
 
     "We’re facing financial difficulties and are willing to sell our company to you for a fair price. This could be a great opportunity for expansion."
 
+    show mentor
+    with dissolve
+
     player "Acquiring another company? This could be a big move, but it comes with risks..."
 
     mentor "The acquisition could help you grow your business long-term, but you’ll face some short-term challenges. What do you want to do?"
 
     menu:
-        "Acquire the company ($2,000 cost).":
+        "Acquire the company ({color=#85bb65}-$2,000{/color}).":
             if money >= 2000:
                 $ money -= 2000
                 $ profit_reduction_days = 5

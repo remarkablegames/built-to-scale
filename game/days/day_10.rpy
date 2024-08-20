@@ -9,20 +9,27 @@ label day_10:
     show mentor smile2 at right
     with dissolve
 
-    mentor "Well done, [player_name]! You're just about at the halfway point. You're doing well!"
+    mentor "Well done, [player_name]!{w=0.2} You're just about at the halfway point.{w=0.2} You're doing well!"
 
-    player "Thanks, [mentor.name]. I appeciate your help."
+    player "Thanks, [mentor.name].{w=0.2} I appeciate your help."
 
-    "As you’re working in your office, you receive a call. It’s [competitor.name]."
+    play sound ring
+
+    "As you’re working in your office, you receive a call."
+    "It’s [competitor.name]."
 
     show competitor comeon
     with dissolve
 
-    competitor "Well, well, [player_name]. Did you really think I wouldn’t notice you trying to creep into {b}my{/b} territory?"
+    competitor "Well,{w=0.1} well,{w=0.1} well,{w=0.1} [player_name].{w=0.3} Did you really think I wouldn’t notice you trying to creep into {i}{b}my{/b}{/i} territory?"
     
-    player "[competitor.name]... what are you doing?"
+    player "[competitor.name]...{w=0.3} what are you doing?"
 
-    competitor doubt "What I’m doing is putting you out of business. You’ve made it this far, but now it’s time for you to step aside. This industry isn’t big enough for both of us."
+    show competitor mock
+
+    competitor "What I’m doing is putting you {i}out{/i} of business."
+    competitor "You’ve made it this far, but now it’s time for you to step aside."
+    competitor "This industry ain’t big enough for both of us."
 
     show competitor naruhodo
 
@@ -30,7 +37,8 @@ label day_10:
 
     show competitor comeon
 
-    competitor "By the end of this week, “[business_name]” will be nothing but a distant memory, and I’ll be there to pick up the pieces. You can count on it."
+    competitor "By the end of this week, “[business_name]” will be nothing but a distant memory, and I’ll be here to pick up the pieces."
+    competitor "You can count on it."
 
     hide competitor 
     with dissolve
@@ -43,12 +51,12 @@ label day_10:
     mentor "I’ve gathered some information about [competitor.name]’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
 
     menu:
-        "Launch a Counterattack ({color=#85bb65}Money -$3,000{/color}).":
+        "Launch a counterattack ({color=#85bb65}-$3,000{/color}).":
             if money >= 3000:
                 $ money -= 3000
-                $ outcome = random.choice(["success", "failure"])
+                $ outcome = renpy.random.choice([True, False])
 
-                if outcome == "success":
+                if outcome:
                     $ profit_boost_days = 7
                     $ profit_boost = 1.5
 
@@ -95,10 +103,10 @@ label day_10:
             else:
                 "You don’t have enough money to launch the counterattack."
 
-        "Play It Safe.":
+        "Play it safe.":
             player "I can’t afford to take that kind of risk right now. I’ll focus on keeping my business stable."
 
-            show competitor comeon at center
+            show competitor comeon
 
             competitor "How pathetic. You’re just going to roll over and let me win? Suit yourself, [player_name]. When this is all over, there will only be one company standing, and it won’t be yours."
 

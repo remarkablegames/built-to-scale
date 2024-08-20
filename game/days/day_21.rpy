@@ -1,12 +1,16 @@
 label day_21:
 
+    stop music fadeout 1
+    queue music electro_2a
+    queue music electro_2b
+
     scene bg office with fade
 
     if equity == 100 and money >= goal:
         player "I made it. Every decision, every risk, every sleepless night... it all paid off." 
         player "I kept full control of the company, and with over $[goal:,] in the bank, the future is wide open."
 
-        show mentor smile at center
+        show mentor smile
         with dissolve
 
         mentor "I knew you had it in you, [player_name]." 
@@ -35,7 +39,7 @@ label day_21:
     elif equity == 100 and money < goal:
         player "I managed to keep full control of the company, but with less than $[goal:,] in the bank... it doesn’t feel like a total victory."
 
-        show mentor smile at center
+        show mentor smile
         with dissolve
 
         mentor "You’ve done well to maintain full control, [player_name]. That alone is a huge accomplishment." 
@@ -70,7 +74,7 @@ label day_21:
 
         friend "You crushed your money goal, [player_name]! Don't let the equity part bring you down."
 
-        show mentor smile at center
+        show mentor smile
         with dissolve
 
         mentor "You’ve done an impressive job, [player_name]. With over $[goal:,], your business is in a strong position." 
@@ -139,15 +143,15 @@ label day_21:
 
         player "Guess the business is not built to scale."
 
-    hide mentor
-    hide competitor
-    hide friend
-    with dissolve
+    hide screen stats
+    hide screen info
 
     scene black
     with fade
 
-    "The future of your business may be uncertain, but one thing is clear: you're not done yet." 
-    "Your journey continues, and the lessons you’ve learned will guide you forever."
+    "The future of your business may be uncertain,{w=0.2} but one thing is clear:{w=0.3} you're not done yet."
+    "Your journey continues, and the lessons you’ve learned will guide you for the rest of your life."
+
+    "{b}End{/b}."
 
     return

@@ -1,13 +1,14 @@
 label day_05:
 
     stop music fadeout 1
-    queue music orchestral_waltz
 
     scene bg office
     with fade
 
     play sound knock
     "You hear a knock on the door."
+
+    queue music orchestral_waltz
 
     show mentor
     with dissolve

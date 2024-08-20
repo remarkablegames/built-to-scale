@@ -21,14 +21,14 @@ label day_02:
 
             show friend confident2
 
-            "You felt your intelligence go up."
+            "Your intelligence went up."
 
         "Book on Charisma\n{color=#ccccff}Charisma +[dice_roll]{/color}":
             $ charisma += dice_roll
 
             show friend confident3
 
-            "You felt your charisma go up."
+            "Your charisma went up."
 
         "Pass":
             "You decided not to read either book."
