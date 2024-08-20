@@ -20,7 +20,7 @@ label home:
             $ energy = 100
             $ days -= 1
 
-            scene black
+            scene bg room night light off
             with fade
 
             "You had a good night’s rest."
