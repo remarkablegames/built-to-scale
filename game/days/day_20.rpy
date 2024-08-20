@@ -16,9 +16,11 @@ label day_20:
     if equity < 100:
         show mentor
 
-        mentor "I know you’ve lost some equity along the way. I made some calls and used my connections." 
-        mentor "I can get your lost equity back to 100%%, but there’s a cost."
-        mentor "You’ll need to pay me $10,000. It’s steep, but this could give you back full control of your business."
+        mentor "I know you’ve lost some equity along the way." 
+        mentor "I made some calls and used my connections." 
+        player "I'm all ears..."
+        mentor "I can get your lost equity back to 100%%, but there’s a catch."
+        mentor "You’ll need to pay me $10,000.{w=0.3} It’s steep, but this could give you back full control of your business."
 
     else:
         show mentor

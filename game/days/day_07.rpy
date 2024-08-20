@@ -12,6 +12,9 @@ label day_07:
 
     "The rumors are quickly spreading, and it’s affecting your brand’s reputation. You need to act fast."
 
+    show mentor
+    with dissolve
+
     mentor "This is bad."
     mentor "You could hire a PR firm to control the damage, but it will cost $500."
     mentor "Or, you could try to weather the storm and hope it blows over."

@@ -1,6 +1,6 @@
 default player_name = "Entrepreneur"
 default business_name = "Scales, Inc."
-default goal = 50000
+default goal = 25000
 
 label start:
 

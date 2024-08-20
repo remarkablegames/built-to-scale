@@ -13,10 +13,11 @@ label day_11:
     show mentor
     with dissolve
 
-    mentor "If you purchase the materials now, you’ll secure a lower price, which could boost your profits. However, if you pass on this, the prices might go up, and your margins could shrink. What do you want to do?"
+    mentor "If you purchase the materials now, you’ll secure a lower price, which could boost your profits." 
+    mentor "However, if you pass on this, the prices might go up, and your margins could shrink. What do you want to do?"
 
     menu:
-        "Purchase Bulk Materials ({color=#85bb65}Money +$2,000{/color}).":
+        "Purchase Bulk Materials ({color=#85bb65}Money -$2,000{/color}).":
             if money >= 2000:
                 $ money -= 2000
                 $ profit_boost_days = 5

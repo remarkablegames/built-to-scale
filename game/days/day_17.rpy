@@ -15,7 +15,13 @@ label day_17:
 
     player "Go on..."
 
-    "We’d like to offer you a distribution deal. We’ll carry your scales in our stores across the country. But there’s a catch—once we take on your product, you’ll need to cut your prices by 30%%. We can start moving your product as soon as you agree."
+    "We’d like to offer you a distribution deal."
+
+    player "What is it?"
+    
+    "We’ll carry your scales in our stores across the country. But there’s a catch..." 
+    "Once we take on your product, you’ll need to cut your prices by 30%%." 
+    "We can start moving your product as soon as you agree."
 
     show mentor smile2 at right
     with dissolve

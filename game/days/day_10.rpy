@@ -98,6 +98,8 @@ label day_10:
         "Play It Safe.":
             player "I can’t afford to take that kind of risk right now. I’ll focus on keeping my business stable."
 
+            show competitor comeon at center
+
             competitor "How pathetic. You’re just going to roll over and let me win? Suit yourself, [player_name]. When this is all over, there will only be one company standing, and it won’t be yours."
 
             mentor "Sometimes playing it safe is the right call, but remember, [competitor.name] won’t stop coming after you."

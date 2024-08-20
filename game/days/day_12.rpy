@@ -15,7 +15,7 @@ label day_12:
 
     friend "I’m a bit short on cash at the moment and I know you’re doing pretty well right now."
 
-    friend "I’ll be blunt - do you have a job for me?"
+    friend "I’ll be blunt{w=0.3}-do you have a job for me?"
 
     player "Umm... I don’t have any specific roles yet."
 

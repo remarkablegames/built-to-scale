@@ -47,7 +47,7 @@ label day_start:
     elif today == 20:
         call day_20
     elif today == 21:
-        call day_21
+        jump day_21
 
     stop music fadeout 1
     queue music electro_2c fadein 1

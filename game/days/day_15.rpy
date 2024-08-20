@@ -13,7 +13,7 @@ label day_15:
 
     player "Thanks, [mentor.name]. I appeciate your help."
 
-    show friend at left
+    show friend at left, flip
     with dissolve
 
     friend "Hey, [player_name], I thought I’d stop by to check out the office!"
@@ -32,7 +32,7 @@ label day_15:
     with dissolve
 
     show mentor disagree at right
-    show friend shut at left
+    show friend shut at left, flip
     show competitor naruhodo at center
 
     competitor "Well, isn’t this a cozy little gathering? Still playing pretend, are we, [player_name]?"
@@ -79,7 +79,7 @@ label day_15:
 
     hide competitor with dissolve
 
-    show friend thinking at left
+    show friend thinking at left, flip
     with dissolve
 
     friend ohman "I didn’t realize she was your competition... I should’ve seen it sooner."

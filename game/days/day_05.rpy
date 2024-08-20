@@ -6,6 +6,9 @@ label day_05:
     scene bg office
     with fade
 
+    play sound knock
+    "You hear a knock on the door."
+
     show mentor
     with dissolve
 
