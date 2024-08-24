@@ -9,7 +9,7 @@ label day_02:
     show friend
     with dissolve
 
-    friend @ confident "I got an extra book from the library today."
+    friend confident "I got an extra book from the library today."
 
     $ dice_roll = renpy.random.randint(1, 6)
 

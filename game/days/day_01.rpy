@@ -21,11 +21,13 @@ label day_01:
 
     player "It’s all I can think about.{w=0.3} If this works,{w=0.1} it could be the start of something big."
 
-    friend "Well,{w=0.2} you’ve got the work ethic.{w=0.3} I’ve seen you juggle everything from school to work to family obligations."
+    friend "Well,{w=0.1} you’ve got the work ethic."
+    friend "I’ve seen you juggle everything from school to work to family obligations."
 
     player "Thanks,{w=0.1} I’ll need every bit of support I can get."
 
-    friend @ confident2 "Why don’t you take a break?{w=0.3} Sometimes it’s good to clear your mind."
+    friend @ confident2 "Why don’t you take a break?"
+    friend @ confident3 "Sometimes it’s good to clear your mind."
 
     player "That’s not a bad idea."
 

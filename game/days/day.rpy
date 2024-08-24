@@ -3,7 +3,7 @@ default days_total = days
 
 label day_start:
 
-    $ time = 8
+    $ time = renpy.random.randint(6, 10)
     $ today = days_total - days + 1
 
     if today == 1:

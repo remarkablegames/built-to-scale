@@ -24,7 +24,7 @@ label day_06:
     player "And what happens after 10 days?"
 
     mentor "You will regain full control,{w=0.2} but until then, your profits will be reduced by 20%%."
-    
+
     mentor "The decision is yours.{w=0.3} A small price to pay for such a boost, wouldn’t you agree?"
 
     menu:

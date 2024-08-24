@@ -16,7 +16,7 @@ label day_05:
     mentor "Listen, I have an offer from a company. It’s risky but promising. Would you like to invest $100?"
 
     menu:
-        "Yes, invest $100.":
+        "Yes, invest in the company. ({color=#85bb65}-$100{/color})":
             if money >= 100:
                 $ money -= 100
                 mentor "Great! I’ll let you know how it goes."

@@ -37,8 +37,7 @@ label day_03:
     competitor "I have the resources,{w=0.1} the connections,{w=0.1} and well...{w=0.3} the brains."
     competitor "What do you have?{w=0.3} Hope?"
 
-    player "I have determination."
-    player "That should be more than enough."
+    player "I have determination.{w=0.3} That should be more than enough."
 
     competitor laugh "Ha! Determination?{w=0.2} Adorable.{w=0.2}"
     competitor "Here’s a tip:{w=0.3} stay out of my way,{w=0.1} and maybe you won’t get crushed."
