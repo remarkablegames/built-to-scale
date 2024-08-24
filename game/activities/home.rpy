@@ -1,12 +1,18 @@
+label go_home:
+
+    "It’s getting late, I should go home now."
+
+    jump home
+
 label home:
 
-    if time < 12:
+    if time < 10:
         scene bg room morning
         with dissolve
-    elif time < 4:
+    elif time < 14:
         scene bg room noon
         with dissolve
-    elif time < 8:
+    elif time < 18:
         scene bg room evening
         with dissolve
     else:
@@ -16,7 +22,17 @@ label home:
     menu:
         "What do you want to do?"
 
-        "Sleep\n{color=#40e0d0}Energy +100{/color}":
+        "Nap\n{color=#40e0d0}Energy +30{/color}, +3 Hours" if time < 18:
+            stop music fadeout 3
+
+            $ energy += 30
+            $ time += 3
+
+            "You took a quick nap."
+
+            jump home
+
+        "Sleep\n{color=#40e0d0}Energy +100{/color}, +1 Day":
             stop music fadeout 3
 
             scene bg room night light off

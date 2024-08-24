@@ -1,11 +1,14 @@
 label park:
 
-    if time < 6:
+    if time < 14:
         scene bg park day
         with dissolve
     else:
         scene bg park night
         with dissolve
+
+    if time >= time_eod:
+        jump go_home
 
     menu:
         "What do you want to do?"

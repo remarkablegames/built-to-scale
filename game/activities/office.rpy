@@ -3,6 +3,9 @@ label office:
     scene bg office
     with dissolve
 
+    if time >= time_eod:
+        jump go_home
+
     $ base_sales = 10 + intelligence + charisma
     $ base_marketing = base_sales + int((intelligence + charisma) * 2)
 
@@ -24,11 +27,11 @@ label office:
         "What do you want to do?"
 
         "Sales\n{color=#85bb65}Money +[sales]{/color}, {color=#40e0d0}Energy -10{/color}" if energy >= 10:
-            $ energy -= 15
+            $ energy -= 10
             $ money += sales
             $ time += 1
 
-            "You made some sales."
+            "You sold some products."
 
             jump office
 

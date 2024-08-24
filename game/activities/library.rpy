@@ -3,6 +3,9 @@ label library:
     scene bg library
     with dissolve
 
+    if time >= time_eod:
+        jump go_home
+
     menu:
         "What do you want to do?"
 
@@ -13,7 +16,7 @@ label library:
             $ intelligence += 1
             $ time += 1
 
-            "You improved your business smarts."
+            "You improved your business skills."
 
             jump library
 
@@ -24,7 +27,7 @@ label library:
             $ intelligence += 5
             $ time += 2
 
-            "You greatly increased your business sense."
+            "You greatly increased your business smarts."
 
             jump library
 

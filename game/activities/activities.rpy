@@ -1,14 +1,15 @@
 default time = 0
+default time_eod = 22
 
 label activities:
 
-    if time < 12:
+    if time < 10:
         scene bg bus stop morning
         with dissolve
-    elif time < 4:
+    elif time < 14:
         scene bg bus stop noon
         with dissolve
-    elif time < 8:
+    elif time < 18:
         scene bg bus stop evening
         with dissolve
     else:
