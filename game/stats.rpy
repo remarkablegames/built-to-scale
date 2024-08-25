@@ -63,7 +63,7 @@ label stats_explanation:
 
 label stats_outro:
 
-    mentor @ thinking "You can end the day when you’re out of energy."
+    mentor @ thinking "You should end the day when it gets late."
     mentor aha "If you’re low on energy,{w=0.1} go to the shop or return home to rest."
     mentor "Success is the result of luck,{w=0.1} preparation,{w=0.1} and choices you’ve made."
     mentor smile2 "Good luck!"

@@ -23,7 +23,7 @@ label day_01:
     player "If this works,{w=0.1} it could be the start of something big."
 
     friend "Well,{w=0.1} you’ve got the work ethic."
-    friend "I’ve seen you juggle everything from school to work to family obligations."
+    friend "I’ve seen you juggle everything from school work to family obligations."
 
     player "Thanks,{w=0.1} I’ll need every bit of support I can get."
 
