@@ -1,7 +1,3 @@
-default energy = 100
-default intelligence = 0
-default charisma = 0
-
 screen stat(name, amount):
     text "[name]: [amount]"
     bar value AnimatedValue(amount, 100) xalign 0.5 xsize 300

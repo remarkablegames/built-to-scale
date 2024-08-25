@@ -1,10 +1,3 @@
-default equity = 100
-default money = 100
-default profit_reduction_days = 0
-default profit_reduction = 1.0
-default profit_boost_days = 0
-default profit_boost = 1.0
-
 screen info():
     frame:
         xalign 1.0 ypos 0

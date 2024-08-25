@@ -1,7 +1,3 @@
-default player_name = "Entrepreneur"
-default business_name = "Scales, Inc."
-default goal = 25000
-
 label start:
 
     play music electro_1 fadein 1

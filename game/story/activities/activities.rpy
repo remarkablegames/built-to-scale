@@ -1,6 +1,3 @@
-default time = 0
-default time_eod = 22
-
 label activities:
 
     if time < 10:

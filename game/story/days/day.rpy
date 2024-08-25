@@ -1,6 +1,3 @@
-default days = 21
-default days_total = days
-
 label day_start:
 
     $ time = renpy.random.randint(6, 10)
