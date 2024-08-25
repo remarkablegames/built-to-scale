@@ -23,8 +23,6 @@ label home:
         "What do you want to do?"
 
         "Nap\n{color=#40e0d0}Energy +30{/color}, +3 Hours" if time < 18:
-            stop music fadeout 3
-
             $ energy += 30
             $ time += 3
 
