@@ -26,10 +26,11 @@ label day_03:
 
     player ".{w=0.1}.{w=0.1}.{w=0.1}"
 
-    competitor "You can consider me your competitor.{w=0.3} I run a real business in this town."
+    competitor "You can consider me your competitor."
+    competitor "I run a real business in this town."
     competitor "Scales, you say?{w=0.2} Cute.{w=0.2} But don’t get too comfortable."
 
-    player "What do you mean?"
+    player "What do you mean by that?"
 
     show competitor comeon
 
@@ -46,7 +47,7 @@ label day_03:
     player "I’m not backing down."
 
     competitor "Good,{w=0.1} I like a challenge."
-    competitor "Just don’t say I didn’t warn you when your precious little dream comes crumbling down."
+    competitor "Just don’t say I didn’t warn you when your precious little dream comes crashing down."
     competitor" Now,{w=0.1} if you’ll excuse me,{w=0.2} I have a real company to run."
 
     hide competitor 

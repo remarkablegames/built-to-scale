@@ -19,7 +19,8 @@ label day_01:
 
     friend @ confident "Thinking about your business, [player_name]?"
 
-    player "It’s all I can think about.{w=0.3} If this works,{w=0.1} it could be the start of something big."
+    player "It’s all I can think about."
+    player "If this works,{w=0.1} it could be the start of something big."
 
     friend "Well,{w=0.1} you’ve got the work ethic."
     friend "I’ve seen you juggle everything from school to work to family obligations."

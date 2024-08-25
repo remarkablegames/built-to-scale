@@ -64,8 +64,8 @@ label stats_explanation:
 label stats_outro:
 
     mentor @ thinking "You can end the day when you’re out of energy."
-    mentor aha "If you’re low on energy,{w=0.1} check out the shop or go to sleep."
-    mentor "Success is the result of luck, preparation, and choices you’ve made."
+    mentor aha "If you’re low on energy,{w=0.1} go to the shop or return home to rest."
+    mentor "Success is the result of luck,{w=0.1} preparation,{w=0.1} and choices you’ve made."
     mentor smile2 "Good luck!"
 
     jump day_start
