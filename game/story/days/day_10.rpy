@@ -6,17 +6,21 @@ label day_10:
     scene bg office
     with fade
 
-    show mentor smile2 at right
+    show mentor
     with dissolve
 
-    mentor "Well done, [player_name]!{w=0.2} You’re just about at the halfway point.{w=0.2} You’re doing well!"
+    mentor smile2 "Well done, [player_name]!"
+    mentor "You’ve made it to the halfway point."
 
-    player "Thanks, [mentor.name].{w=0.2} I appeciate your help."
+    player "Thanks,{w=0.1} I appeciate it."
 
     play sound ring
 
-    "As you’re working in your office, you receive a call."
+    "You suddenly receive a call."
     "It’s [competitor.name]."
+
+    show mentor at right
+    with move
 
     show competitor comeon
     with dissolve
@@ -37,7 +41,7 @@ label day_10:
 
     show competitor comeon
 
-    competitor "By the end of this week, “[business_name]” will be nothing but a distant memory, and I’ll be here to pick up the pieces."
+    competitor "By the end of this week,{w=0.1} “[business_name]” will be no more,{w=0.2} and I’ll be here to pick up the pieces."
     competitor "You can count on it."
 
     hide competitor 
@@ -45,12 +49,15 @@ label day_10:
 
     pause 1.0
 
-    show mentor
-    with dissolve
+    show mentor at center
+    with move
 
-    mentor "I’ve gathered some information about [competitor.name]’s vulnerabilities. You could launch a counterattack, but it’s risky and costly. What do you want to do?"
+    mentor "I’ve gathered some information about [competitor.name]’s vulnerabilities."
+    mentor "You could launch a counterattack, but it’s risky and costly."
 
     menu:
+        "What should you do?"
+
         "Launch a counterattack ({color=#85bb65}-$3,000{/color}).":
             if money >= 3000:
                 $ money -= 3000
@@ -115,6 +122,7 @@ label day_10:
 
     hide competitor with dissolve
 
-    "The call ends, and the tension lingers in the air. You’ve made your decision, but the stakes are higher than ever."
+    "The call ends, and the tension lingers in the air."
+    "You’ve made your decision, but the stakes are higher than ever."
 
     return

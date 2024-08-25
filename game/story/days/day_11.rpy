@@ -7,7 +7,8 @@ label day_11:
     with fade
 
     "You receive an email from one of your key suppliers."
-    "They’re offering a limited-time discount on bulk materials, but you’ll need to make a large upfront purchase."
+
+    supplier "We’re offering a limited-time discount on bulk materials, but you’ll need to make a large upfront purchase."
 
     player "A discount? This could help reduce my costs in the short term, but it’s a big investment."
 
@@ -15,9 +16,11 @@ label day_11:
     with dissolve
 
     mentor "If you purchase the materials now, you’ll secure a lower price, which could boost your profits." 
-    mentor "However, if you pass on this, the prices might go up and your margins could shrink. What do you want to do?"
+    mentor "However, if you pass on this, the prices might go up and your margins could shrink."
 
     menu:
+        "What do you want to do?"
+
         "Purchase bulk materials ({color=#85bb65}-$2,000{/color}).":
             if money >= 2000:
                 $ money -= 2000
@@ -34,6 +37,7 @@ label day_11:
         "Pass on the deal.":
             player "I can’t take the risk right now. I’ll hold off on the bulk purchase."
             mentor "Fair enough, but be prepared for potential price increases later."
+
             "You decide to pass on the deal, opting to avoid the upfront cost but potentially facing higher prices in the future."
 
     return

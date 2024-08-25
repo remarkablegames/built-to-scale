@@ -6,17 +6,17 @@ label day_15:
     scene bg office
     with fade
 
-    show mentor smile2 at right
+    show mentor at right
     with dissolve
 
-    mentor "Good to see you again, [player_name]!{w=0.3} You’re doing well!"
+    mentor smile2 "Good to see that you’re doing well today!"
 
-    player "Thanks, [mentor.name].{w=0.2} I appeciate your help."
+    player "Thanks,{w=0.1} I appeciate your help."
 
     show friend at left, flip
     with dissolve
 
-    friend "Hey, [player_name], I thought I’d stop by to check out your office!"
+    friend "Hey, [player_name], I thought I’d stop by to check out your office."
 
     player "[friend.name]! Great to see you. Come on in, let me introduce you to someone."
 
@@ -31,11 +31,12 @@ label day_15:
     show competitor comeon
     with dissolve
 
+    pause 1
+
     show mentor disagree2 at right
     show friend shut at left, flip
-    show competitor naruhodo
 
-    competitor "Well, isn’t this a cozy little gathering? Still playing pretend, are we, [player_name]?"
+    competitor naruhodo "Well, isn’t this a cozy little gathering? Still playing pretend, are we, [player_name]?"
 
     show competitor mock2
 
@@ -43,41 +44,29 @@ label day_15:
 
     friend mad "Wait... [competitor.name]? You’re... here?"
 
-    show competitor comeon
-
-    competitor "Oh, [friend.name]! Didn’t think you’d be here too. Still wrapped around [player_name]’s little finger, I see."
+    competitor comeon "Oh, [friend.name]! Didn’t think you’d be here too."
+    competitor "Still wrapped around [player_name]’s little finger, I suppose."
 
     player "What do you want, [competitor.name]?"
 
-    show competitor talking
+    competitor talking "I’m just here to remind you that you’re way out of your league."
 
-    competitor "I’m just here to remind you that you’re way out of your league."
-
-    show competitor comeon
-
-    competitor "Your little mentor can’t save you, and [friend.name] here — well..."
-
-    show competitor talking
+    competitor @ comeon "Your little mentor can’t save you, and [friend.name] here—well..."
 
     competitor "I’m sure he’ll realize sooner or later which of us is actually going to succeed."
 
     mentor disagree2 "[competitor.name], we’re all just trying to build our own paths here. No need for this hostility."
 
-    show competitor talking
-
-    competitor "Hostility? Please. I’m just calling it like it is. [player_name], you’re in over your head, and soon everyone will see that."
+    competitor "Hostility?{w=0.3} Please. I’m just calling it like it is."
+    competitor "[player_name], you’re in over your head, and soon everyone will see that."
 
     friend shut "[competitor.name]... why are you doing this? I thought you were different."
 
-    show competitor mock
-
-    competitor "Oh, [friend.name], you’re so naive. Business is business, and I don’t have time for small talk. I’m here to win."
+    competitor mock "Oh, [friend.name], you’re so naive. Business is business, and I don’t have time for small talk. I’m here to win."
 
     player "Enough, [competitor.name]. Get out of my office."
 
-    show competitor comeon
-
-    competitor "Fine, I’ll go. But don’t say I didn’t warn you when it all comes crashing down."
+    competitor comeon "Fine, I’ll go. But don’t say I didn’t warn you when it all comes crumbling down."
 
     hide competitor with dissolve
 
@@ -88,7 +77,7 @@ label day_15:
 
     mentor aha "Don’t worry, [friend.name]. [player_name] has what it takes. [competitor.name] might be fierce, but we’re stronger together."
 
-    player "Thanks, both of you. This just proves we need to stay focused."
+    player "Thanks, this just proves we need to stay focused."
 
     hide friend
     hide mentor

@@ -34,6 +34,8 @@ label day_20:
         mentor "You’ll have the cash to secure your future, but you’ll be giving up majority control of the business. What do you say?"
 
     menu:
+        "What will you do?"
+
         "Accept [mentor.name]’s offer." if equity < 100 and money >= 10000:
             $ money -= 10000
             $ equity = 100

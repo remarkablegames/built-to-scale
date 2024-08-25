@@ -6,7 +6,7 @@ label day_07:
     scene bg office
     with fade
 
-    "You receive a troubling notification – a competitor has started spreading negative rumors about your business online."
+    "You receive a troubling notification{w=0.3}—a competitor has started spreading negative rumors about your business."
 
     player "This has to be [competitor.name].{w=0.3} Why is she doing this?"
 

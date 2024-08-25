@@ -28,6 +28,6 @@ label day_14:
 
     hide mentor with dissolve
 
-    "With an extra $4,000 in your account, your confidence is boosted. Onward and upward."
+    "With an extra $4,000 in your account, your confidence is boosted.{w=0.3} Onward and upward."
 
     return

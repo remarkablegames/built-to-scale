@@ -12,23 +12,25 @@ label day_06:
 
     player "Hello?"
 
-    mentor "Good day, [player_name].{w=0.3} It’s Jasper."
+    mentor "Good day, [player_name].{w=0.2} It’s Jasper."
     mentor "I’ve been watching your progress, and I’m impressed."
 
     player "Thanks, I appreciate it."
-    
-    mentor "I’m willing to invest $1,500 into your company immediately."
-    
+
+    mentor "I’m willing to invest $1,500 in your company."
+
     mentor "However, in return, I request 20%% ownership of your business for the next 10 days."
 
     player "And what happens after 10 days?"
 
-    mentor "You will regain full control,{w=0.2} but until then, your profits will be reduced by 20%%."
+    mentor "You’ll regain full control,{w=0.2} but until then, your profits will be reduced by 20%%."
 
     mentor "The decision is yours.{w=0.3} A small price to pay for such a boost, wouldn’t you agree?"
 
     menu:
-        "Accept the investment.":
+        "What will you do?"
+
+        "Accept the investment ({color=#85bb65}+$1,500{/color}, -20%% equity).":
             $ money += 1500
             $ equity -= 20
             $ profit_reduction_days = 10

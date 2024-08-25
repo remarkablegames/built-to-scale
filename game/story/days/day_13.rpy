@@ -33,6 +33,7 @@ label day_13:
 
     hide friend with dissolve
 
-    "As Riley leaves, you can’t help but wonder... Could it be [competitor.name]? Or is it just a coincidence?"
+    "As Riley leaves, you can’t help but wonder..."
+    "Could it be [competitor.name]? Or is it just a coincidence?"
 
     return
