@@ -21,7 +21,7 @@ label day_12:
 
     player "However, I could use a hand delivering some scales to the office. How does that sound?"
 
-    friend confident3 "Works for me. How much does it pay for the day?"
+    friend @ confident3 "Works for me. How much does it pay for the day?"
 
     menu:
             "It pays $250. Does that work? ({color=#85bb65}-$250{/color})":

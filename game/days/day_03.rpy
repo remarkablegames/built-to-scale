@@ -20,34 +20,30 @@ label day_03:
 
     player "Who are you?"
 
-    show competitor naruhodo
-
-    competitor smirk "Oh,{w=0.1} how rude of me.{w=0.2} I’m [competitor.name]."
+    competitor naruhodo "Oh,{w=0.1} how rude of me.{w=0.2} I’m [competitor.name]."
 
     player ".{w=0.1}.{w=0.1}.{w=0.1}"
 
-    competitor "You can consider me your competitor."
+    competitor comeon "You can consider me your competitor."
     competitor "I run a real business in this town."
-    competitor "Scales, you say?{w=0.2} Cute.{w=0.2} But don’t get too comfortable."
+    competitor naruhodo "Scales, you say?{w=0.2} Cute.{w=0.2} But don’t get too comfortable."
 
     player "What do you mean by that?"
 
-    show competitor comeon
-
-    competitor "I mean,{w=0.1} it’s only a matter of time before your little operation folds."
-    competitor "I have the resources,{w=0.1} the connections,{w=0.1} and well...{w=0.3} the brains."
+    competitor comeon "I mean,{w=0.1} it’s only a matter of time before your little operation folds."
+    competitor @ naruhodo "I have the resources,{w=0.1} the connections,{w=0.1} and well...{w=0.3} the brains."
     competitor "What do you have?{w=0.3} Hope?"
 
     player "I have determination.{w=0.3} That should be more than enough."
 
-    competitor laugh "Ha! Determination?{w=0.2} Adorable.{w=0.2}"
+    competitor @ mock "Ha! Determination?{w=0.2} Adorable.{w=0.2}"
     competitor "Here’s a tip:{w=0.3} stay out of my way,{w=0.1} and maybe you won’t get crushed."
-    competitor "This town ain’t big enough for two scale businesses,{w=0.2} and I don’t like to share."
+    competitor naruhodo "This town ain’t big enough for two scale businesses,{w=0.2} and I don’t like to share."
 
     player "I’m not backing down."
 
-    competitor "Good,{w=0.1} I like a challenge."
-    competitor "Just don’t say I didn’t warn you when your precious little dream comes crashing down."
+    competitor comeon "Good,{w=0.1} I like a challenge."
+    competitor "Just don’t say I didn’t warn you when your precious little dream is cut short."
     competitor" Now,{w=0.1} if you’ll excuse me,{w=0.2} I have a real company to run."
 
     hide competitor 

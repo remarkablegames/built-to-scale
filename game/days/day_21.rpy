@@ -78,7 +78,7 @@ label day_21:
         with dissolve
 
         mentor "You’ve done an impressive job, [player_name]. With over $[goal:,], your business is in a strong position." 
-        mentor "But remember, you no longer have full control. You’ll have to work with others to shape “[business_name]”’s future."
+        mentor "But remember, you no longer have full control. You’ll have to work with others to shape the future of “[business_name]”."
 
         show competitor sadsmile at right
         with dissolve

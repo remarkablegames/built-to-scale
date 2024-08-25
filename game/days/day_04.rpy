@@ -29,10 +29,12 @@ label day_04:
 
         "Wait for the shipment.":
             $ energy -= 50
-            player "I’ll wait it out. Hopefully, it won’t impact my sales too much."
-            "Understood. We’ll do our best to get things moving as soon as possible."
 
-    "The email leaves you with a difficult decision, but you’ve made your choice."
+            player "I’ll wait it out.{w=0.2} Hopefully, it won’t impact my sales too much."
+
+            "Understood.{w=0.3} We’ll do our best to get things moving as fast as possible."
+
+    "The email leaves you with a difficult decision,{w=0.1} but you’ve made your choice."
     "Now you wait to see what happens."
 
     return
