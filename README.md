@@ -15,6 +15,8 @@ Play the game on:
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
 
+This was made for the [GMTK Game Jam 2024](https://itch.io/jam/gmtk-2024), which the theme was "Built to Scale" (see [submission](https://itch.io/jam/gmtk-2024/rate/2910953)).
+
 Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
 
 ## Credits
