@@ -1,20 +1,23 @@
 # Changelog
 
-## [1.1.0](https://github.com/remarkablegames/built-to-scale/compare/v1.0.0...v1.1.0) (2024-08-25)
+## [1.1.1](https://github.com/remarkablegames/built-to-scale/compare/v1.1.0...v1.1.1) (2024-08-28)
 
+### Bug Fixes
+
+* **github:** downgrade renpy cli to 8.2.1 ([7d566aa](https://github.com/remarkablegames/built-to-scale/commit/7d566aad89c9d56351a035434d9cd34c3b9ac67f))
+
+## [1.1.0](https://github.com/remarkablegames/built-to-scale/compare/v1.0.0...v1.1.0) (2024-08-25)
 
 ### Features
 
 * **gui:** replace window_icon.png ([500e1b6](https://github.com/remarkablegames/built-to-scale/commit/500e1b6d2e1473723a38e343dea060ea9fd28105))
 * **story:** add characters company and supplier and improve dialogue ([78d384e](https://github.com/remarkablegames/built-to-scale/commit/78d384ee97bcc361f3e70e11b6ad747adfcee5e7))
 
-
 ### Bug Fixes
 
 * **activities:** don't stop music during nap ([427bf31](https://github.com/remarkablegames/built-to-scale/commit/427bf316e540adc368fb1444c9fda0ffffb2d5df))
 * **activities:** end the day after enough time passes ([ca5b0ce](https://github.com/remarkablegames/built-to-scale/commit/ca5b0ce7695c15268c3a4cc080a7d4578db74eb9))
 * **config:** disable rollback_enabled ([22bfba8](https://github.com/remarkablegames/built-to-scale/commit/22bfba80adb9b76c0023ec893d6bb4bb62594491))
-
 
 ### Performance Improvements
 
