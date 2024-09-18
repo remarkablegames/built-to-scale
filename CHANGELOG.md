@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/remarkablegames/built-to-scale/compare/v1.1.1...v1.1.2) (2024-09-17)
+
+
+### Bug Fixes
+
+* **gui:** revert `gui.accent_color` so it's blue instead of white ([df8eebb](https://github.com/remarkablegames/built-to-scale/commit/df8eebbee7c474da36cf74311808c063ccfe7d1d))
+
 ## [1.1.1](https://github.com/remarkablegames/built-to-scale/compare/v1.1.0...v1.1.1) (2024-08-28)
 
 ### Bug Fixes
