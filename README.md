@@ -25,7 +25,7 @@ Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
 ### Art
 
 - [Uncle Mugen](https://lemmasoft.renai.us/forums/viewtopic.php?t=17302)
-- [Mad Scientist](https://twitter.com/mad_scientist92)
+- [Mad Scientist](https://twitter.com/mad_scientist92) ([NSAID](https://itch.io/c/4241605/free-art-assets-from-me))
 - Photo by [Andrew Neel](https://unsplash.com/@andrewtneel) on [Unsplash](https://unsplash.com/photos/macbook-pro-white-ceramic-mugand-black-smartphone-on-table-cckf4TsHAuw)
 
 ### Audio
