@@ -30,7 +30,6 @@ Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
 
 ### Audio
 
-- Guilain de Coligny
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 - [Knock knock knock](https://pixabay.com/sound-effects/knock-knock-knock-40474/)
 - [Writing,Pen,Signature,Paper](https://pixabay.com/sound-effects/writingpensignaturepaper-102967/)
@@ -40,6 +39,10 @@ Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
 ### Font
 
 - [Queensides Font](https://www.fontspace.com/queensides-font-f90306)
+
+### Music
+
+- Guilain de Coligny
 
 ## Ideation
 
