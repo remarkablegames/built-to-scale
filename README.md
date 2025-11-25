@@ -4,7 +4,7 @@
 
 # Built to Scale
 
-![release](https://img.shields.io/github/v/release/remarkablegames/built-to-scale)
+[![release](https://img.shields.io/github/v/release/remarkablegames/built-to-scale)](https://github.com/remarkablegames/built-to-scale/releases)
 [![build](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml)
 
@@ -12,9 +12,9 @@
 
 Play the game on:
 
-- [remarkablegames](https://remarkablegames.org/built-to-scale)
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
 - [newgrounds](https://www.newgrounds.com/portal/view/945558)
+- [remarkablegames](https://remarkablegames.org/built-to-scale)
 
 This was made for the [GMTK Game Jam 2024](https://itch.io/jam/gmtk-2024), which the theme was `Built to Scale` (see [submission](https://itch.io/jam/gmtk-2024/rate/2910953)).
 
