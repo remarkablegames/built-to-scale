@@ -13,7 +13,7 @@
 Play the game on:
 
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
-- [newgrounds](https://www.newgrounds.com/portal/view/945558)
+- [Newgrounds](https://www.newgrounds.com/portal/view/945558)
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
 
 This was made for the [GMTK Game Jam 2024](https://itch.io/jam/gmtk-2024), which the theme was `Built to Scale` (see [submission](https://itch.io/jam/gmtk-2024/rate/2910953)).
@@ -71,7 +71,6 @@ Clone the repository to the `Projects Directory`:
 git clone https://github.com/remarkablegames/built-to-scale.git
 cd built-to-scale
 ```
-
 ## Run
 
 Launch the project:
@@ -88,10 +87,20 @@ renpy
 
 Press `Shift`+`R` to reload the game.
 
-Clean the cache:
+Press `Shift`+`D` to open the developer menu.
+
+## Cache
+
+Clear the cache:
 
 ```sh
-find game -name "*.rpyc" -delete
+find game -type f -name '*.rpyc' -delete
+```
+
+Or open `Ren'Py Launcher` > `Force Recompile`:
+
+```sh
+renpy
 ```
 
 ## Lint
@@ -101,7 +110,3 @@ Lint the game:
 ```sh
 renpy game lint
 ```
-
-## License
-
-[MIT](LICENSE)
