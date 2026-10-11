@@ -1,6 +1,9 @@
 name: lint
 on: [push, pull_request]
 
+permissions:
+  contents: read
+
 jobs:
   lint:
     runs-on: ubuntu-latest
@@ -12,4 +15,4 @@ jobs:
         uses: remarkablegames/setup-renpy@v2
 
       - name: Lint script
-        run: renpy-cli game lint
+        run: renpy-cli game lint --error-code
