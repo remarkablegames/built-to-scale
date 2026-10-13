@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.2.0](https://github.com/remarkablegames/built-to-scale/compare/v1.1.2...v1.2.0) (2026-10-13)
+
+
+### Features
+
+* **audio:** play button hover and activate sound ([506b58e](https://github.com/remarkablegames/built-to-scale/commit/506b58e3090b543b8cda89ad6851a3663b3532f5))
+* **audio:** play sfx for activities ([e0be7ee](https://github.com/remarkablegames/built-to-scale/commit/e0be7ee2d77b2c0a61eac38df72edc3e121fbc1b))
+* **audio:** play voice bleep for characters ([92aa6f0](https://github.com/remarkablegames/built-to-scale/commit/92aa6f0d6c81c72a72f956fefdcfcb856ce3b30f))
+* **story:** add pauses, improve dialogue, and fix variable logic ([dd58f4d](https://github.com/remarkablegames/built-to-scale/commit/dd58f4dd5478a2eafa21860c810a34505eda0c25))
+* **story:** play sound kaching when money increases during day events ([6b460fa](https://github.com/remarkablegames/built-to-scale/commit/6b460fa902e1cbce6a117f158507d3560744e332))
+* **story:** play sound woosh in day events ([cb9dcf5](https://github.com/remarkablegames/built-to-scale/commit/cb9dcf51e516a87e41d4b699e8fbe3c79d97cc59))
+* **story:** set defaults to inputs in start ([9dbbc4f](https://github.com/remarkablegames/built-to-scale/commit/9dbbc4f27719e29598157854a96a9a5ba3a60537))
+
+
+### Bug Fixes
+
+* correct web-icon size ([1b491db](https://github.com/remarkablegames/built-to-scale/commit/1b491dbbad0897003accc3cad5ff234a676d29d9))
+* **screens:** revert color for main menu title and version ([420b376](https://github.com/remarkablegames/built-to-scale/commit/420b3763f59fdc9804f65f25fb28319f696a9782))
+
+
+### Performance Improvements
+
+* **images:** convert images to webp ([7de717d](https://github.com/remarkablegames/built-to-scale/commit/7de717ddaa77fe6d51d825d0be93f5dd10569412))
+
 ## [1.1.2](https://github.com/remarkablegames/built-to-scale/compare/v1.1.1...v1.1.2) (2024-09-17)
 
 
