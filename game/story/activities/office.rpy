@@ -27,6 +27,8 @@ label office:
         "What do you want to do?"
 
         "Sales\n{color=#85bb65}Money +[sales]{/color}, {color=#40e0d0}Energy -10{/color}" if energy >= 10:
+            play sound kaching
+
             $ energy -= 10
             $ money += sales
             $ time += 1
@@ -36,6 +38,8 @@ label office:
             jump office
 
         "Marketing\n{color=#85bb65}Money +[marketing]{/color}, {color=#40e0d0}Energy -25{/color}" if energy >= 25:
+            play sound kaching
+
             $ energy -= 25
             $ money += marketing
             $ time += 2

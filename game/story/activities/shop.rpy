@@ -10,6 +10,8 @@ label shop:
         "What do you want to do?"
 
         "Drink\n{color=#40e0d0}Energy +5{/color}, {color=#85bb65}Money -$10{/color}" if money >= 10 and energy < 100:
+            play sound drink
+
             $ energy += 5
             $ money -= 10
             $ time += 0.1
@@ -19,6 +21,8 @@ label shop:
             jump shop
 
         "Snack\n{color=#40e0d0}Energy +10{/color}, {color=#85bb65}Money -$20{/color}" if money >= 20 and energy < 100:
+            play sound eat
+
             $ energy += 10
             $ money -= 20
             $ time += 0.2
@@ -28,9 +32,11 @@ label shop:
             jump shop
 
         "Dine\n{color=#40e0d0}Energy +20{/color}, {color=#85bb65}Money -$40{/color}" if money >= 40 and energy < 100:
+            play sound bite
+
             $ energy += 20
             $ money -= 40
-            $ time += 0.5
+            $ time += 0.4
 
             "You had a hearty meal."
 

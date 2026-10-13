@@ -30,12 +30,18 @@ Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
 
 ### Audio
 
-- [Cell Phone Vibrate (High Quality)](https://pixabay.com/sound-effects/cell-phone-vibrate-high-quality-34034/)
 - [Kenney Interface Sounds](https://kenney.nl/assets/interface-sounds)
 - [Text/Dialogue Bleeps Pack](https://dmochas-assets.itch.io/dmochas-bleeps-pack)
 - Sound effects from Pixabay
+  - [Cash Register (Kaching) - Sound Effect](https://pixabay.com/sound-effects/film-special-effects-cash-register-kaching-sound-effect-125042/)
+  - [Cell Phone Vibrate (High Quality)](https://pixabay.com/sound-effects/cell-phone-vibrate-high-quality-34034/)
+  - [Drink](https://pixabay.com/sound-effects/film-special-effects-drink-332368/)
+  - [Eat](https://pixabay.com/sound-effects/people-eat-323883/)
   - [Knock knock knock](https://pixabay.com/sound-effects/knock-knock-knock-40474/)
+  - [Person Running - LOOP](https://pixabay.com/sound-effects/film-special-effects-person-running-loop-245173/)
+  - [Snoring](https://pixabay.com/sound-effects/people-snoring-71560/)
   - [Writing,Pen,Signature,Paper](https://pixabay.com/sound-effects/writingpensignaturepaper-102967/)
+  - [cartoon bite](https://pixabay.com/sound-effects/film-special-effects-cartoon-bite-39234/)
   - [rotary phone ring medium](https://pixabay.com/sound-effects/rotary-phone-ring-medium-103869/)
 
 ### Font

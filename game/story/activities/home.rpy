@@ -23,6 +23,8 @@ label home:
         "What do you want to do?"
 
         "Nap\n{color=#40e0d0}Energy +30{/color}, +3 Hours" if time < 18:
+            play sound snoring
+
             $ energy += 30
             $ time += 3
 
@@ -35,6 +37,8 @@ label home:
 
             scene bg room night light off
             with dissolve
+
+            play sound snoring
 
             $ energy = 100
             $ days -= 1
