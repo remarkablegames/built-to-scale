@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 ## Initialization
 ################################################################################
 
@@ -27,7 +27,8 @@ style gui_text:
 
 style button:
     properties gui.button_properties("button")
-    activate_sound "button.ogg"
+    hover_sound "ui/drop_002.ogg"
+    activate_sound "ui/drop_004.ogg"
 
 style button_text is gui_text:
     properties gui.text_properties("button")
@@ -97,7 +98,6 @@ style frame:
 ## https://www.renpy.org/doc/html/screen_special.html#say
 
 screen say(who, what):
-    style_prefix "say"
 
     window:
         id "window"
@@ -227,6 +227,8 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    hover_sound "ui/drop_002.ogg"
+    activate_sound "ui/drop_004.ogg"
 
 style choice_button_text is default:
     properties gui.text_properties("choice_button")
@@ -246,9 +248,7 @@ screen quick_menu():
 
         hbox:
             style_prefix "quick"
-
-            xalign 0.5
-            yalign 1.0
+            style "quick_menu"
 
             textbutton _("Back") action Rollback()
             textbutton _("History") action ShowMenu('history')
@@ -267,8 +267,13 @@ init python:
 
 default quick_menu = True
 
+style quick_menu is hbox
 style quick_button is default
 style quick_button_text is button_text
+
+style quick_menu:
+    xalign 0.5
+    yalign 1.0
 
 style quick_button:
     properties gui.button_properties("quick_button")
@@ -400,11 +405,9 @@ style main_menu_text:
 
 style main_menu_title:
     properties gui.text_properties("title")
-    color "#fff"
 
 style main_menu_version:
     properties gui.text_properties("version")
-    color "#fff"
 
 
 ## Game Menu screen ############################################################
@@ -529,7 +532,7 @@ style game_menu_label:
     ysize 180
 
 style game_menu_label_text:
-    size gui.title_text_size
+    size 75
     color gui.accent_color
     yalign 0.5
 
@@ -665,6 +668,7 @@ screen file_slots(title):
                     spacing gui.page_spacing
 
                     textbutton _("<") action FilePagePrevious()
+                    key "save_page_prev" action FilePagePrevious()
 
                     if config.has_autosave:
                         textbutton _("{#auto_page}A") action FilePage("auto")
@@ -677,6 +681,7 @@ screen file_slots(title):
                         textbutton "[page]" action FilePage(page)
 
                     textbutton _(">") action FilePageNext()
+                    key "save_page_next" action FilePageNext()
 
                 if config.has_sync:
                     if CurrentScreenName() == "save":
@@ -702,6 +707,7 @@ style slot_name_text is slot_button_text
 style page_label:
     xpadding 75
     ypadding 5
+    xalign 0.5
 
 style page_label_text:
     textalign 0.5
@@ -1440,6 +1446,10 @@ screen bubble(who, what):
         text what:
             id "what"
 
+        default ctc = None
+        showif ctc:
+            add ctc
+
 style bubble_window is empty
 style bubble_namebox is empty
 style bubble_who is default
@@ -1521,10 +1531,8 @@ screen quick_menu():
     if quick_menu:
 
         hbox:
+            style "quick_menu"
             style_prefix "quick"
-
-            xalign 0.5
-            yalign 1.0
 
             textbutton _("Back") action Rollback()
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
@@ -1563,6 +1571,10 @@ style game_menu_navigation_frame:
 style game_menu_content_frame:
     variant "small"
     top_margin 0
+
+style game_menu_viewport:
+    variant "small"
+    xsize 1305
 
 style pref_vbox:
     variant "small"
