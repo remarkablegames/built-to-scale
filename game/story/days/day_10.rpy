@@ -19,6 +19,8 @@ label day_10:
     "You suddenly receive a call."
     "It’s [competitor.name]."
 
+    play sound woosh
+
     show mentor at right
     with move
 
@@ -45,6 +47,8 @@ label day_10:
     with dissolve
 
     pause 1
+
+    play sound woosh
 
     show mentor at center
     with move

@@ -19,11 +19,15 @@ label day_21:
         mentor "Full control,{w=.1} a healthy bank account,{w=.1} and a growing business."
         mentor "The future’s yours to shape."
 
+        play sound woosh
+
         show friend at left, flip
         with dissolve
 
         friend "Way to go,{w=.1} [player_name]!"
         friend "I believed in you the whole time.{w=.5} Sort of."
+
+        play sound woosh
 
         show competitor mad at right
         with dissolve
@@ -51,10 +55,14 @@ label day_21:
         mentor "That alone is a huge accomplishment."
         mentor "But remember,{w=.1} the financial side is just as important."
 
+        play sound woosh
+
         show friend at left, flip
         with dissolve
 
         friend "You did your best,{w=.1} [player_name].{w=.3} Be proud!"
+
+        play sound woosh
 
         show competitor mad at right
         with dissolve
@@ -82,6 +90,8 @@ label day_21:
 
         friend "You crushed your money goal,{w=.1} [player_name]!{w=.3} Don’t let the equity part bring you down."
 
+        play sound woosh
+
         show mentor smile
         with dissolve
 
@@ -89,6 +99,8 @@ label day_21:
         mentor "With over $[goal:,],{w=.1} your business is in a strong position."
         mentor "But remember,{w=.1} you no longer have full control."
         mentor "You’ll have to work with others to shape the future of “[business_name]”."
+
+        play sound woosh
 
         show competitor sadsmile at right
         with dissolve
@@ -116,6 +128,10 @@ label day_21:
         show mentor sad smile
         with dissolve
 
+        pause 1
+
+        play sound woosh
+
         show friend at left, flip
         with dissolve 
 
@@ -125,6 +141,8 @@ label day_21:
         mentor "I know this isn’t the outcome you were hoping for,{w=.1} [player_name]."
         mentor "You fought hard,{w=.1} but sometimes the road to success is longer and harder than we expect."
         mentor "It doesn’t mean it’s over."
+
+        play sound woosh
 
         show competitor tired at right
         with dissolve
