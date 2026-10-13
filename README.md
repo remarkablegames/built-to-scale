@@ -12,6 +12,7 @@
 
 Play the game on:
 
+- [Wavedash](https://wavedash.com/games/built-to-scale)
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
 - [Newgrounds](https://www.newgrounds.com/portal/view/945558)
 - [remarkablegames](https://remarkablegames.org/built-to-scale)
