@@ -8,7 +8,9 @@
 [![build](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml)
 
-⚖️ You're an entrepreneur with just 21 days to build a business that can scale. Make choices, manage your resources, and navigate the ups and downs of startup life. Grow too quickly and you could run out of money; play it too safe and you might miss your chance to grow.
+⚖️ Play as an entrepreneur building a business to scale!
+
+> You're an entrepreneur with just 21 days to build a business that can scale. Make choices, manage your resources, and navigate the ups and downs of startup life. Grow too quickly and you could run out of money; play it too safe and you might miss your chance to grow.
 
 Play in your browser:
 
