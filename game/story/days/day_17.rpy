@@ -8,17 +8,16 @@ label day_17:
     play sound ring
 
     "Your phone rings as soon as you get in."
-
     "It’s an unfamiliar number."
 
     queue music orchestral_waltz
 
     player "Hello?"
 
-    company "Hi, [player_name]. My name is Jordan."
+    company "Hi,{w=.1} [player_name].{w=.3} My name is Jordan."
     company "I’m a representative of one of the largest retail chains in the country."
 
-    player "{alpha=0.7}(thinking){/alpha} {i}The biggest chain? What do they want with me?{/i}"
+    player "{alpha=0.7}(thinking){/alpha} {i}The biggest chain?{w=.3} What do they want with me?"
 
     company "We’ve been monitoring your progress in the scales industry."
     company "And we believe your product has the potential to make it in the mainstream market."
@@ -40,7 +39,7 @@ label day_17:
     show mentor
     with dissolve
 
-    mentor smile2 "This is interesting! So, what will you do?"
+    mentor smile2 "This is interesting!{w=.3} So, what will you do?"
 
     menu:
         "I will..."
@@ -49,18 +48,23 @@ label day_17:
             $ profit_reduction_days = 4
             $ profit_reduction = 0.7
 
-            player "This could open up a massive new market. Let’s do it."
+            player "This could open up a massive new market."
+            player "Let’s do it."
 
-            company "Great choice, [player_name]. I’ll have the contract sent over. Welcome to the big leagues."
+            company "Great choice, [player_name]."
+            company "I’ll have the contract sent over."
+            company "Welcome to the big leagues."
 
-            "You sign the distribution deal, hoping the volume makes up for the reduced profit margins."
+            "You sign the distribution deal,{w=.2} hoping the volume makes up for the reduced profit margins."
 
         "Decline the offer.":
-            player "I can’t afford to cut my prices that much, even for a big chain. I’ll have to pass."
+            player "I can’t afford to cut my prices that much,{w=.1} even for a big chain."
+            player "I’ll have to pass."
 
-            company "That’s unfortunate, but I understand. Best of luck with your business."
+            company "That’s unfortunate,{w=.1} but I understand."
+            company "Best of luck with your business."
 
-            "You hang up the phone, wondering if you’ve passed up a huge opportunity—or dodged a bullet."
+            "You hang up the phone,{w=.1} wondering if you’ve passed up a huge opportunity—{w=.2}or dodged a bullet."
 
     hide competitor with dissolve
 

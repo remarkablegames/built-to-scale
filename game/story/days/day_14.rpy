@@ -6,16 +6,20 @@ label day_14:
     scene bg office
     with fade
 
-    "As you’re reviewing your sales reports, you notice something strange."
+    "As you’re reviewing your sales reports,{w=.1} you notice something strange."
 
-    player "Wait...{w=0.3} these numbers can’t be right."
+    player "Wait...{w=.3} these numbers can’t be right."
 
     show mentor smile2
     with dissolve
 
-    mentor "Surprising, isn’t it?{w=0.3} One of your marketing campaigns went viral overnight.{w=0.3} Your sales have surged!"
+    mentor "Surprising,{w=.1} isn’t it?"
 
-    player "That explains it!{w=0.3} I’ve just earned {color=#85bb65}$4,000{/color} in a single day!"
+    player "What do you mean?"
+
+    mentor "One of your marketing campaigns went viral overnight.{w=.3} Your sales have surged!"
+
+    player "That explains it!{w=.3} I’ve just earned {color=#85bb65}$4,000{/color} in a single day!"
 
     $ money += 4000
 
@@ -24,10 +28,10 @@ label day_14:
     else:
         player "You must be enjoying the fruits of our labor."
 
-    mentor giveup "Yes I am,{w=0.1} yes I am."
+    mentor giveup "Yes I am,{w=.2} yes I am."
 
     hide mentor with dissolve
 
-    "With an extra $4,000 in your account, your confidence is boosted.{w=0.3} Onward and upward."
+    "With an extra $4,000 in your account,{w=.1} your confidence is boosted.{w=.3} Onward and upward."
 
     return

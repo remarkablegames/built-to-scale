@@ -60,14 +60,14 @@ label day_end:
 
         if profit_reduction_days == 0:
             $ profit_reduction = 1.0
-            "Your temporary ownership deal has expired, and your profits have returned to normal."
+            "Your temporary ownership deal has expired,{w=.2} and your profits have returned to normal."
 
     if profit_boost_days > 0:
         $ profit_boost_days -= 1
 
         if profit_boost_days == 0:
             $ profit_boost = 1.0
-            "The bulk material discount period has ended, and your profits have returned to normal."
+            "The bulk material discount period has ended,{w=.2} and your profits have returned to normal."
 
     if days <= 0:
         jump day_21

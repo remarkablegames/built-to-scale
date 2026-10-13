@@ -1,6 +1,6 @@
 label go_home:
 
-    "It’s getting late, I should go home now."
+    "It’s getting late,{w=.2} I should go home now."
 
     jump home
 

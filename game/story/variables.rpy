@@ -16,6 +16,9 @@ default profit_reduction = 1.0
 default profit_boost_days = 0
 default profit_boost = 1.0
 
+# deals
+default accepted_mentor_investment = False
+
 # days
 default days = 21
 default days_total = days

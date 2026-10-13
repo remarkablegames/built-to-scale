@@ -4,7 +4,7 @@ label start:
 
     "I’ve always had a dream..."
     "And that dream is to start a company that sells {b}scales{/b}."
-    "Why {i}scales{/i}?{w=0.3} Because scales saved my life."
+    "Why {i}scales{/i}?{w=.3} Because scales saved my life."
     "But I don’t have much time left..."
     "I’m graduating in {b}[days_total] days{/b}."
     "I have to make {b}$[goal:,]{/b} for the business to be sustainable."
@@ -27,16 +27,16 @@ label start:
 
     $ business_name = renpy.input("My business name is...", default="Scales, Inc.", length=32).strip() or business_name
 
-    mentor smile "“[business_name]”{w=0.1}.{w=0.1}.{w=0.1}.{w=0.5} It has a nice ring to it!"
+    mentor smile "{cps=10}“[business_name]”...{/cps}{w=.5} It has a nice ring to it!"
 
-    mentor "The paperwork’s done,{w=0.2} please sign your name to incorporate your company."
+    mentor "The paperwork’s done,{w=.2} please sign your name to incorporate your company."
 
     $ player_name = renpy.input("My name is...", default="Entrepreneur", length=32).strip() or player_name
 
-    mentor smile2 "Congratulations, [player_name]!"
+    mentor smile2 "Congratulations,{w=.1} [player_name]!"
     mentor "Remember that every successful business starts with a dream and a lot of hard work."
-    mentor "It’s not just about selling your product,{w=0.2} but about solving problems to make people’s lives better."
+    mentor "It’s not just about selling your product,{w=.2} but about solving problems to make people’s lives better."
     mentor "“[business_name]” could be the next big thing."
-    mentor smile "Before you get to work, let’s take a quick detour."
+    mentor smile "Before you get to work,{w=.2} let’s take a quick detour."
 
     jump stats_intro

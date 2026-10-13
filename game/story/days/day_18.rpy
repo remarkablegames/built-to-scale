@@ -8,27 +8,28 @@ label day_18:
 
     play sound knock
 
-    "As you’re working late into the night, your door swings open."
+    "As you’re working late into the night,{w=.1} your door swings open."
     "It’s [competitor.name]."
-
-    player "{alpha=0.7}(thinking){/alpha} {i}What is it now?{/i}"
 
     show competitor comeon
     with dissolve
 
-    competitor naruhodo "Evening, [player_name]. I’ve got a little proposition for you."
+    player "{alpha=0.7}(thinking){/alpha} {i}What is it now?"
 
-    player "[competitor.name], if this is another one of your games..."
+    competitor naruhodo "Evening,{w=.1} [player_name].{w=.3} I’ve got a little proposition for you."
 
-    competitor mock2 "Oh, it is, but this one could make or break you."
-    competitor naruhodo "I’ve just secured a deal with a huge supplier, but they’re willing to work with either one of us."
-    competitor "I could let you have it—if you beat me in a sales challenge."
+    player "[competitor.name],{w=.1} if this is another one of your games..."
 
-    player "{alpha=0.7}(thinking){/alpha} {i}A challenge...{/i}"
+    competitor mock2 "Oh,{w=.1} it is,{w=.1} but this one could make or break you."
+    competitor naruhodo "I’ve just secured a deal with a huge supplier,{w=.1} but they’re willing to work with either one of us."
+    competitor "I could let you have it—{w=.2}if you beat me in a sales challenge."
+
+    player "{alpha=0.7}(thinking){/alpha} {i}A challenge..."
 
     competitor think talking "The terms are simple."
-    competitor talking "First, whoever makes the most sales in the next 48 hours gets the supplier."
-    competitor comeon "Second, the loser gives the winner $5,000. Are you in?"
+    competitor talking "First,{w=.1} whoever makes the most sales in the next 48 hours gets the supplier."
+    competitor comeon "Second,{w=.1} the loser gives the winner $5,000."
+    competitor "Are you in?"
 
     if money >= 5000:
         menu:
@@ -41,39 +42,40 @@ label day_18:
                     $ money += 5000
                     $ profit_boost_days = 4
                     $ profit_boost = 1.5
-                    player "Bring it on, [competitor.name]. I’ll take that deal."
+                    player "Bring it on,{w=.1} [competitor.name].{w=.3} I’ll take that deal."
 
                     competitor mad "We’ll see who’s laughing at the end of this."
 
                     hide competitor with dissolve
                     
-                    "You work tirelessly over the next 48 hours, and your efforts pay off."
-                    "You beat [competitor.name], securing the deal and increasing your profits by 50%% for the next 3 days."
+                    "You work tirelessly over the next 48 hours,{w=.1} and your efforts pay off."
+                    "You beat [competitor.name],{w=.1} securing the deal and increasing your profits by 50%% for the next 3 days."
 
                 else:
                     $ money -= 5000
-                    player "I’ll take your challenge, [competitor.name]. Let’s see who comes out on top."
+                    player "I’ll take your challenge,{w=.1} [competitor.name]."
+                    player "Let’s see who comes out on top."
 
-                    competitor comeon "I hope you enjoy losing money, because you’re about to get burned."
+                    competitor comeon "I hope you enjoy losing money,{w=.1} because you’re about to get burned."
 
                     hide competitor with dissolve
 
-                    "Despite your efforts, [competitor.name] outmaneuvers you, and you lose the challenge — and $5,000 in the process."
+                    "Despite your efforts,{w=.1} [competitor.name] outmaneuvers you,{w=.1} and you lose the challenge—{w=.3}and $5,000 in the process."
 
             "Decline the challenge.":
-                player "I’m not falling for your tricks, [competitor.name]. I’ll build my own path."
+                player "I’m not falling for your tricks,{w=.1} [competitor.name].{w=.3} I’ll build my own path."
 
-                competitor tired "Coward. But I expected as much from someone like you."
+                competitor tired "Coward.{w=.2} But I expected as much from someone like you."
                 competitor "Enjoy watching me succeed while you stay stuck in the trenches."
 
-                "You refuse the challenge, choosing stability over risk, but [competitor.name]’s words linger in your mind."
+                "You refuse the challenge,{w=.1} choosing stability over risk,{w=.1} but [competitor.name]’s words linger in your mind."
     else:
-        player "I don’t have $5,000 right now. I can’t accept your challenge."
+        player "I don’t have $5,000 right now.{w=.3} I can’t accept your challenge."
 
-        competitor mock2 "How unfortunate for you. Well, when you’re ready to play with the big leagues, come find me."
-        "You missed out on [competitor.name]’s challenge, but perhaps it was for the best."
+        competitor mock2 "How unfortunate for you.{w=.3} Well{w=.1} when you’re ready to play with the big leagues,{w=.1} come find me."
+        "You missed out on [competitor.name]’s challenge,{w=.1} but perhaps it was for the best."
 
     hide competitor with dissolve
-    "With the conversation over, you reflect on your decision and prepare for the days ahead."
+    "With the conversation over,{w=.1} you reflect on your decision and prepare for the days ahead."
 
     return

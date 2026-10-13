@@ -27,7 +27,7 @@ label park:
             $ charisma += 5
             $ time += 2
 
-            "Your charisma increased a lot."
+            "Your increased your charisma greatly."
 
             jump park
 
@@ -37,7 +37,7 @@ label park:
             $ charisma += 7
             $ time += 3
 
-            "Your charisma went up significantly."
+            "Your rizz is through the roof."
 
             jump park
 

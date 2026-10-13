@@ -26,7 +26,7 @@ label stats_intro:
     queue music [electro_2e, electro_2f]
 
     mentor @ thinking "What are the steps to success?"
-    mentor "You’ll need to focus on three key areas:{w=0.2} {b}Energy{/b}{w=0.2}, {b}Intelligence{/b}{w=0.2}, and {b}Charisma{/b}."
+    mentor "You’ll need to focus on three key areas:{w=.2} {b}Energy{/b}{w=.2}, {b}Intelligence{/b}{w=.2}, and {b}Charisma{/b}."
 
     jump stats_explanation
 
@@ -38,7 +38,7 @@ label stats_explanation:
 
         "{color=#40e0d0}Energy{/color}":
             mentor @ thinking "You’ll need energy to accomplish all your tasks for the day."
-            mentor "Every action,{w=0.2} from making sales to working out,{w=.2} requires energy."
+            mentor "Every action,{w=.2} from making sales to working out,{w=.2} requires energy."
 
             jump stats_explanation
 
@@ -60,8 +60,8 @@ label stats_explanation:
 label stats_outro:
 
     mentor @ thinking "You should end the day when it gets late."
-    mentor aha "If you’re low on energy,{w=0.1} go to the shop or return home to rest."
-    mentor "Success is the result of luck,{w=0.1} preparation,{w=0.1} and choices you’ve made."
+    mentor aha "If you’re low on energy,{w=.2} go to the shop or return home to rest."
+    mentor "Success is the result of luck,{w=.1} preparation,{w=.1} and choices you’ve made."
     mentor smile2 "Good luck!"
 
     jump day_start
