@@ -25,13 +25,13 @@ label start:
     mentor "I’ll be handling your application to start your business."
     mentor "What’s your business called?"
 
-    $ business_name = renpy.input("My business name is...", length=32).strip() or business_name
+    $ business_name = renpy.input("My business name is...", default="Scales, Inc.", length=32).strip() or business_name
 
     mentor smile "“[business_name]”{w=0.1}.{w=0.1}.{w=0.1}.{w=0.5} It has a nice ring to it!"
 
     mentor "The paperwork’s done,{w=0.2} please sign your name to incorporate your company."
 
-    $ player_name = renpy.input("My first name is...", length=32).strip() or player_name
+    $ player_name = renpy.input("My name is...", default="Entrepreneur", length=32).strip() or player_name
 
     mentor smile2 "Congratulations, [player_name]!"
     mentor "Remember that every successful business starts with a dream and a lot of hard work."
