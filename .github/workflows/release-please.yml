@@ -48,7 +48,7 @@ jobs:
       - name: Build packages
         run: renpy-launcher distribute . --dest ../dists
 
-      # e.g., "../dists/renpy-template-1.2.3-linux.tar.bz2" -> "../dists/linux.tar.bz2"
+      # e.g., "../dists/built-to-scale-1.2.3-linux.tar.bz2" -> "../dists/linux.tar.bz2"
       - name: Rename packages
         run: |
           for filename in ../dists/*; do
@@ -56,7 +56,10 @@ jobs:
           done
 
       - name: Build web
-        run: renpy-launcher web_build . --destination ../dists/web
+        run: |
+          renpy-launcher web_build . --destination ../dists/web
+          # hide menu
+          sed -i 's|#ContextContainer {|#ContextContainer { display: none;|' ../dists/web/index.html
 
       - name: Setup butler
         uses: remarkablegames/setup-butler@v3
@@ -106,7 +109,10 @@ jobs:
           -delete
 
       - name: Build web
-        run: renpy-launcher web_build . --destination dist
+        run: |
+          renpy-launcher web_build . --destination dist
+          # hide menu
+          sed -i 's|#ContextContainer {|#ContextContainer { display: none;|' dist/index.html
 
       - name: Upload to Wavedash
         uses: remarkablegames/wavedash-action@v2
