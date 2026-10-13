@@ -8,18 +8,26 @@
 [![build](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/build.yml)
 [![lint](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml/badge.svg)](https://github.com/remarkablegames/built-to-scale/actions/workflows/lint.yml)
 
-⚖️ Play as an entrepreneur building a business to scale!
+⚖️ You're an entrepreneur with just 21 days to build a business that can scale. Make choices, manage your resources, and navigate the ups and downs of startup life. Grow too quickly and you could run out of money; play it too safe and you might miss your chance to grow.
 
-Play the game on:
+Play in your browser:
 
 - [Wavedash](https://wavedash.com/games/built-to-scale)
 - [itch.io](https://remarkablegames.itch.io/built-to-scale)
 - [Newgrounds](https://www.newgrounds.com/portal/view/945558)
-- [remarkablegames](https://remarkablegames.org/built-to-scale)
+- [remarkablegames](https://remarkablegames.org/built-to-scale/)
 
-This was made for the [GMTK Game Jam 2024](https://itch.io/jam/gmtk-2024), which the theme was `Built to Scale` (see [submission](https://itch.io/jam/gmtk-2024/rate/2910953)).
+This was made for the [GMTK Game Jam 2024](https://itch.io/jam/gmtk-2024), which the theme was **Built to Scale** (see [submission](https://itch.io/jam/gmtk-2024/rate/2910953)).
 
-Read the [blog post](https://remarkablegames.org/posts/built-to-scale/).
+Read the [blog post](https://remarkablegames.org/posts/built-to-scale/) or watch the [YouTube video](https://youtu.be/XXaQKrE2URU).
+
+## Features
+
+- A visual-novel story with RPG-style stats and choices
+- A day-and-night cycle where every action spends energy and time
+- Daily events that could help or hinder your business
+- A 21-day run with multiple endings
+- Estimated playtime: 30 minutes (5,000 words)
 
 ## Credits
 
