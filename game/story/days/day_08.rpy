@@ -32,12 +32,15 @@ label day_08:
             $ outcome = renpy.random.choice([True, False])
 
             if outcome:
-                $ money += 200
-
                 player "This could be the boost I need to take my business to the next level."
                 player "Let’s go for it."
 
                 "You sign the partnership agreement,{w=.1} and the collaboration pays off."
+
+                play sound kaching
+
+                $ money += 200
+
                 "Their resources boost your business,{w=.1} and you earn $200 from the partnership!"
 
             else:

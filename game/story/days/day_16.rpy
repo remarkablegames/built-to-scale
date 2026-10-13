@@ -24,6 +24,7 @@ label day_16:
     $ outcome = renpy.random.choice([True, False])
 
     if outcome:
+        play sound kaching
         $ money += 500
         player "I can’t believe it!"
         player "I just won {color=#85bb65}$500{/color}!"

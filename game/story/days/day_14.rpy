@@ -19,9 +19,11 @@ label day_14:
 
     mentor "One of your marketing campaigns went viral overnight.{w=.3} Your sales have surged!"
 
-    player "That explains it!{w=.3} I’ve just earned {color=#85bb65}$4,000{/color} in a single day!"
+    play sound kaching
 
     $ money += 4000
+
+    player "That explains it!{w=.3} I’ve just earned {color=#85bb65}$4,000{/color} in a single day!"
 
     if equity != 100:
         player "You must be enjoying that [100 - equity]%% equity I gave you."

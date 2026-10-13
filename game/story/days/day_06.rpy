@@ -31,6 +31,8 @@ label day_06:
         "What will you do?"
 
         "Accept the investment ({color=#85bb65}+$1,500{/color}, -20%% equity).":
+            play sound kaching
+
             $ accepted_mentor_investment = True
             $ money += 1500
             $ equity -= 20

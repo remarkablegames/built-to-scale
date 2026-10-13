@@ -38,6 +38,7 @@ label day_05:
                 $ outcome = renpy.random.choice([True, False])
 
                 if outcome:
+                    play sound kaching
                     $ money += 250
                     mentor "Good news!{w=.2} The investment paid off{w=.2}. You earned $250!"
                 else:

@@ -55,6 +55,8 @@ label day_20:
             "It’s a relief to have full control again."
 
         "Sell 51%% equity to [mentor.name] for $25,000." if equity >= 51:
+            play sound kaching
+
             $ money += 25000
             $ equity -= 51
 

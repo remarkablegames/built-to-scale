@@ -36,8 +36,10 @@ label day_19:
         "What will you do?"
 
         "Accept the offer ({color=#85bb65}+$10,000{/color}, -40%% equity).":
-            $ equity -= 40
+            play sound kaching
+
             $ money += 10000
+            $ equity -= 40
 
             player "It’s a tough decision{w=.1}, but I could use the cash injection."
             player "Ok,{w=.1} I’ll accept the offer."
@@ -65,8 +67,10 @@ label day_19:
             company "Hmm,{w=.2} interesting."
             company "We’ll accept those terms and move forward with the smaller deal."
 
-            $ equity -= 20
+            play sound kaching
+
             $ money += 5000
+            $ equity -= 20
 
             "You’ve successfully negotiated a smaller deal,{w=.1} selling 20%% of your company for $5,000."
             "It’s less risky,{w=.1} but still,{w=.1} you’ve given up a part of your business."

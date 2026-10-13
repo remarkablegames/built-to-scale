@@ -29,8 +29,9 @@ label day_12:
                 if money >= 250:
                     $ money -= 250
                     friend "Sounds great.{w=.2} Thanks,{w=.1} [player_name]!"
-                    "After [friend.name] completed his job,{w=.1} you saw your sales increase for the day."
+                    play sound kaching
                     $ money += 500
+                    "After [friend.name] completed his job,{w=.1} you saw your sales increase for the day."
                 else:
                     player "Oh no,{w=.1} I forgot...{w=.2} I actually don’t have the funds right now."
                     player "Sorry,{w=.1} [friend.name]!"

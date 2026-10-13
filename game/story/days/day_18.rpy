@@ -39,26 +39,31 @@ label day_18:
                 $ outcome = renpy.random.choice([True, False])
 
                 if outcome:
-                    $ money += 5000
-                    $ profit_boost_days = 4
-                    $ profit_boost = 1.5
                     player "Bring it on,{w=.1} [competitor.name].{w=.3} I’ll take that deal."
 
                     competitor mad "We’ll see who’s laughing at the end of this."
 
                     hide competitor with dissolve
-                    
+
                     "You work tirelessly over the next 48 hours,{w=.1} and your efforts pay off."
+
+                    play sound kaching
+
+                    $ money += 5000
+                    $ profit_boost_days = 4
+                    $ profit_boost = 1.5
+
                     "You beat [competitor.name],{w=.1} securing the deal and increasing your profits by 50%% for the next 3 days."
 
                 else:
-                    $ money -= 5000
                     player "I’ll take your challenge,{w=.1} [competitor.name]."
                     player "Let’s see who comes out on top."
 
                     competitor comeon "I hope you enjoy losing money,{w=.1} because you’re about to get burned."
 
                     hide competitor with dissolve
+
+                    $ money -= 5000
 
                     "Despite your efforts,{w=.1} [competitor.name] outmaneuvers you,{w=.1} and you lose the challenge—{w=.3}and $5,000 in the process."
 
