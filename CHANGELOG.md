@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/remarkablegames/built-to-scale/compare/v1.2.0...v1.2.1) (2026-10-14)
+
+
+### Continuous Integration
+
+* **github:** hide menu for web build in release-please.yml ([121303e](https://github.com/remarkablegames/built-to-scale/commit/121303eb3bad0de3b41f5d73852d054422294980))
+
 ## [1.2.0](https://github.com/remarkablegames/built-to-scale/compare/v1.1.2...v1.2.0) (2026-10-13)
 
 
